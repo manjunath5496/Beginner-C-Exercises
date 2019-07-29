@@ -46,20 +46,23 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to check whether a number entered by the user is positive, negative or zero.***
+> ***Write a program to find the sum of two numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = int(input("Enter a number: "))
-if a > 0:
-   print("Positive number")
-elif a == 0:
-   print("Zero")
-else:
-   print("Negative number")
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b, sum;
+a=1;
+b=2;
+sum = a + b;
+printf("the sum of a and b = %d", sum);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -67,17 +70,23 @@ else:
 
 ### **Question:**
 
-> ***Write a program to display the calendar of a given date.***
+> ***Write a program to find the square of a number.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-import calendar
-yy = int(input("Enter year: "))
-mm = int(input("Enter month: "))
-print(calendar.month(yy, mm))
+```C language
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int a, b;
+a=2;
+b = pow((a), 2);
+printf("the square of a = %d", b);
+return 0;
+}
 ```
 ----------------------------------------
 
