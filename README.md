@@ -2,27 +2,22 @@
 
 ### **Question:**
 
-> ***Write a program to Add Two Numbers.***
+> ***Write a program to print Hello World!.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = 1
-b = 2
-c= a+b
-print(c)
+```C language
+#include<stdio.h>
+int main()
+{
+printf("Hello,world!");
+return 0;
+}
 ```
 ----------------------------------------
 
-```python
-a = int(input("enter a number: "))
-b = int(input("enter a number: "))
-c= a+b
-print(c)
-```
-----------------------------------------
 
 # Question 2
 
