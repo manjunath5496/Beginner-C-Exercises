@@ -94,15 +94,29 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to ask the user to enter the string and print that string as output of the program.***
+> ***Write a program to find the greatest of two numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-string = input("Enter string: ")
-print("You entered:",string)
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b;
+a = 2;
+b = 3;
+if(a>b)
+{
+printf("a is greater than b");
+}
+else
+{
+printf("b is greater than a");
+}
+return 0;
+}
 ```
 ----------------------------------------
 
