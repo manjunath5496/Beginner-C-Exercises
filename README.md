@@ -23,18 +23,22 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.***
+> ***Write a program to find the area of a circle.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = int(input("enter a number: "))
-if a % 2 == 0:
-    print("This is an even number.")
-else:
-    print("This is an odd number.")
+```C language
+#include<stdio.h>
+int main()
+{
+int r, area;
+r = 2;
+area = 4 * 3.14 * r * r;
+printf("The area of the circle = %d", area);
+return 0;
+}
 ```
 ----------------------------------------
 
