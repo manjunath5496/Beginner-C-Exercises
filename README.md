@@ -916,8 +916,34 @@ linux
 ```
 ----------------------------------------
 
+# Question 35
 
+### **Question:**
 
+> ***Write a program to check whether a character is an alphabet or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+int a =2;
+if( isalpha(a) )
+{
+printf(" the character a is an alphabet");
+}
+else
+{
+printf("the character a is not an alphabet");
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
