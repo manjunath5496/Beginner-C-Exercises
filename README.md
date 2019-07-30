@@ -575,7 +575,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a Program to print the factorial of the entered number.***
+> ***Write a program to print the factorial of the entered number.***
 
 ---------------------------------------
 
@@ -601,19 +601,23 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to Find the length of a String.***
+> ***Write a program to print the length of the entered string.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-print("Enter 'y' for exit.")
-string = input("Enter a string: ")
-if string == 'y':
-    exit()
-else:
-    print("Length of the string =", len(string))
+```C language
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char ch[4];
+printf("Enter any word: ");
+scanf("%c", &ch);
+printf("The length of the string = %d", strlen(ch));
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -621,16 +625,20 @@ else:
 
 ### **Question:**
 
-> ***Write a program to Print Natural Numbers from 1 to N.***
+> ***Write a program to print the ASCII value of the entered character.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-N = int(input("Please Enter any Number: "))
-for i in range(1, N+1):
-    print (i)
+```C language
+#include<stdio.h>
+int main()
+{
+char ch ='A';
+printf("the ASCII value of ch is: %d", ch);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -639,20 +647,23 @@ for i in range(1, N+1):
 
 ### **Question:**
 
-> ***Write a program to calculate the sum and average of Natural Numbers from 1 to N.***
+> ***Write a program to check whether the entered character is a lower case letter or not.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-N = int(input("Please Enter any Number: "))
-sum = 0
-for i in range(1,N+1):
-  sum = sum + i
-print(sum)
-average = sum / N
-print(average)
+```C language
+#include<stdio.h>
+int main()
+{
+char ch = 'a';
+if(islower(ch))
+printf("you have entered the lower case letter");
+else
+printf("you have entered the upper case letter");
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -661,16 +672,23 @@ print(average)
 
 ### **Question:**
 
-> ***Write a program to Print a Statement Any Number of Times.***
+> ***Write a program to check whether the entered character is a upper case letter or not.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-n = int(input("Please Enter any Number: "))
-for i in range(n):
-    print("hello world")
+```C language
+#include<stdio.h>
+int main()
+{
+char ch = 'a';
+if(isupper(ch))
+printf("you have entered the upper case letter");
+else
+printf("you have entered the lower case letter");
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -678,20 +696,21 @@ for i in range(n):
 
 ### **Question:**
 
-> ***Write a program To Multiply Two Numbers Using Function.***
+> ***Write a program to convert the lower case letter to upper case letter.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-def my_function():
-    a = int(input("enter a number: "))
-    b=int(input("enter a number: "))
-    c= a*b
-    return c
-d = my_function()
-print (d)
+```C language
+#include<stdio.h>
+int main()
+{
+char ch = 'a';
+char b = toupper(ch);
+printf("lower case letter %c is converted to upper case letter %c", ch, b);
+return 0;
+}
 ```
 ----------------------------------------
 
