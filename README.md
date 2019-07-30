@@ -1221,3 +1221,22 @@ This loop will run forever.
 This loop will run forever. ......... 
 ```
 ----------------------------------------
+
+
+```C language
+#include<stdio.h>
+int main()
+{
+printf("Hello,world!");
+return 0;
+printf("Hello,world!");
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+Hello,world! 
+```
+----------------------------------------
