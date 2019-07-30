@@ -271,7 +271,7 @@ return 0;
 ### **Question:**
 
 > ***Write a program:</br>
-If you enter a character M
+If you enter a character M</br>
 Output must be: ch = M.***
 
 ---------------------------------------
@@ -295,17 +295,23 @@ return 0;
 
 ### **Question:**
 
-> ***Take a list, say for example this one: a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] and write a program that prints out all the elements of the list that are less than 5.***
+> ***Write a program to print the Multiplication table of a number.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-for i in a:
-    if i < 5:
-        print(i)
+```C language
+#include<stdio.h>
+int main()
+{
+int n, i;
+printf("Enter any number:");
+scanf("%d", &n);
+for( i=1; i<=5; i++)
+printf("%d * %d = %d\n", n, i, n*i);
+return 0;
+}
 ```
 ----------------------------------------
 
