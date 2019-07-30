@@ -124,7 +124,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print the average of the elements in array.***
+> ***Write a program to print the average of the elements in the array.***
 
 ---------------------------------------
 
@@ -150,19 +150,39 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to Check if an item exists in the list.***
+> ***Write a program such that a Switch (case) allows to make a decision from the number of choices, i.e., from the number of cases.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-list_of_items = ["ball", "book", "pencil"]
-item = input("Type item to check: ")
-if item in list_of_items:
- print("Item exists in the list.")
-else:
-  print("Item does not exist in the list.") 
+```C language
+#include<stdio.h>
+int main()
+{
+char ch;
+printf("Enter any character:");
+scanf("%c", &ch);
+switch(ch)
+{
+case 'R':
+printf("Red");
+break;
+case 'W':
+printf("White");
+break;
+case 'Y':
+printf("Yellow");
+break;
+case 'G':
+printf("Green");
+break;
+default:
+printf("Error");
+break;
+}
+return 0;
+} 
 ```
 ----------------------------------------
 
@@ -170,17 +190,33 @@ else:
 
 ### **Question:**
 
-> ***Write a program to Join two or more lists.***
+> ***Write a program to find the greatest of two numbers using pointers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-list1 = ["This" , "is", "a", "sample", "program"]
-list2 = [10, 2, 45, 3, 5, 7, 8, 10]
-finalList = list1 + list2
-print(finalList) 
+```C language
+#include<stdio.h>
+int main()
+{
+int x, y, *p, *q;
+printf("Enter any integer:");
+scanf("%d", &x);
+printf("Enter any integer:");
+scanf("%d", &y);
+p = &x;
+q = &y;
+if(*p>*q)
+{
+printf("x is greater than y");
+}
+if(*q>*p)
+{
+printf("y is greater than x");
+}
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -188,17 +224,23 @@ print(finalList)
 
 ### **Question:**
 
-> ***Write a program to Calculate Cube of a Number.***
+> ***Write a program to print the address of x and the value assigned to x.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-import math 
-a = int(input("Enter a number: "))
-b=math.pow(a,3)
-print (b) 
+```C language
+#include <stdio.h>
+int main()
+{
+int x, *p;
+x = 1;
+p = &x;
+printf("The address of the variable x =%d", p);
+printf("The value of the variable x =%d", *p);
+return 0;
+} 
 ```
 ----------------------------------------
 
