@@ -862,3 +862,30 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 33
+
+### **Question:**
+
+> ***Write a program to print:</br>
+body [b] = b</br>
+body [o] = o</br>
+body [d] = d</br>
+body [y] = y</br>
+using arrays.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+char i;
+char body [4] = {'b', 'o', 'd', 'y'};
+for(i=0; i<4; i++)
+printf("\n body[%c] = %c", body[i] , body[i]);
+return 0;
+}
+```
+----------------------------------------
