@@ -887,3 +887,33 @@ return 0;
 }
 ```
 ----------------------------------------
+
+
+# Question 34
+
+### **Question:**
+
+> ***What will be the output of the below program:***
+
+---------------------------------------
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main () {
+printf("linux\n");
+exit (0);
+printf("php\n");
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
