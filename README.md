@@ -248,17 +248,21 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to Calculate Square root of a Number.***
+> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-import math 
-a = int(input("Enter a number: "))
-b=math.sqrt(a)
-print (b)  
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+for( i=1; i<=10; i++)
+printf("number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
+return 0;
+} 
 ```
 ----------------------------------------
 
@@ -266,15 +270,24 @@ print (b)
 
 ### **Question:**
 
-> ***Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list.***
+> ***Write a program program:
+If you enter a character M
+Output must be: ch = M.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = [5, 10, 15, 20, 25]
-print([a[0], a[4]]) 
+```C language
+#include<stdio.h>
+int main()
+{
+char M;
+printf("Enter any character:");
+scanf("%c", &M);
+printf("ch=%c", M);
+return 0;
+} 
 ```
 ----------------------------------------
 
