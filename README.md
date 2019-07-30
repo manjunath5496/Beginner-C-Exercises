@@ -788,7 +788,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program To Find Square Of A Number Using Functions.***
+> ***Write a program to find square of a number using functions.***
 
 ---------------------------------------
 
