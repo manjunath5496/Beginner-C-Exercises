@@ -819,19 +819,21 @@ return x*x;
 
 ### **Question:**
 
-> ***Write a program To calculate the variance and standard deviation of the elements of the list.***
+> ***Write a program To print hello world 10 times.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-import numpy as np
-a= [2,6,8,12,18,24,28,32]
-variance= np.var(a)
-std = np.std(a)
-print(variance)
-print(std)
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+for (i =1; i<=10; i ++)
+printf("hello world \n");
+return 0;
+}
 ```
 ----------------------------------------
 
