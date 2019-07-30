@@ -963,7 +963,7 @@ If purchase value is greater than 10000, 30% discount.***
 #include<stdio.h>
 int main()
 {
-double PV, dis, total;
+double PV;
 printf("Enter purchased value:");
 scanf("%lf", &PV);
 if(PV>1000)
