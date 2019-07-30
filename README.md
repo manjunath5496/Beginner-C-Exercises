@@ -124,17 +124,25 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to Concatenate Two Strings.***
+> ***Write a program to print the average of the elements in array.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-string1 = input("Enter first string to concatenate: ")
-string2 = input("Enter second string to concatenate: ")
-string3 = string1 + string2
-print("String after concatenation = ",string3)
+```C language
+#include<stdio.h>
+int main()
+{
+int i, avg, sum = 0;
+int num [5] = {16, 18, 20, 25, 36};
+for(i=0; i<5; i++)
+sum = sum + num [i];
+avg = sum/5;
+printf("Sum of the Elements in the array = %d", sum);
+printf("average of the elements in the array= %d", avg);
+return 0;
+}
 ```
 ----------------------------------------
 
