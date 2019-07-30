@@ -270,7 +270,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program program:
+> ***Write a program:</br>
 If you enter a character M
 Output must be: ch = M.***
 
