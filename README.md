@@ -1175,3 +1175,24 @@ The value of y = 27
 ```
 ----------------------------------------
 
+```C language
+#include<stdio.h>
+int main()
+{
+char ch [5];
+printf( "Enter the name: ");
+scanf("%s", &ch);
+printf( "The name you entered = %s", ch);
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+Enter the name:
+If you enter the name "Dennis"
+The name you entered = Denni
+```
+----------------------------------------
