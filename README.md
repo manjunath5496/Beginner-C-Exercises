@@ -1192,7 +1192,7 @@ return 0;
 
 ```C language
 Enter the name:
-If you enter the name "Dennis"
+Dennis
 The name you entered = Denni
 ```
 ----------------------------------------
