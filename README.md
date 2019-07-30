@@ -60,7 +60,7 @@ int a, b, sum;
 a=1;
 b=2;
 sum = a + b;
-printf("the sum of a and b = %d", sum);
+printf("The sum of a and b = %d", sum);
 return 0;
 }
 ```
@@ -84,7 +84,7 @@ int main()
 int a, b;
 a=2;
 b = pow((a), 2);
-printf("the square of a = %d", b);
+printf("The square of a = %d", b);
 return 0;
 }
 ```
@@ -140,7 +140,7 @@ for(i=0; i<5; i++)
 sum = sum + num [i];
 avg = sum/5;
 printf("Sum of the Elements in the array = %d", sum);
-printf("average of the elements in the array= %d", avg);
+printf("Average of the elements in the array= %d", avg);
 return 0;
 }
 ```
@@ -260,7 +260,7 @@ int main()
 {
 int i;
 for( i=1; i<=10; i++)
-printf("number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
+printf("Number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
 return 0;
 } 
 ```
@@ -357,11 +357,11 @@ int a;
 a = -35;
 if(a>0)
 {
-printf("number is positive");
+printf("Number is positive");
 }
 else
 {
-printf(" number entered is negative");
+printf(" Number entered is negative");
 }
 return 0;
 }
@@ -389,11 +389,11 @@ printf("Enter any number:");
 scanf ("%d", &y);
 if(x-y==0)
 {
-printf("the two numbers are equivalent");
+printf("The two numbers are equivalent");
 }
 else
 {
-printf("the number are not equivalent");
+printf("The number are not equivalent");
 }
 return 0;
 }
@@ -420,7 +420,7 @@ scanf("%d", &a);
 printf("Enter any number:");
 scanf("%d", &b);
 c = a%b;
-printf("the remainder of a and b = %d", c);
+printf("The remainder of a and b = %d", c);
 return 0;
 }
 ```
@@ -445,11 +445,11 @@ printf("Enter any number:");
 scanf ("%d", &a);
 if(a%2 = = 0)
 {
-printf("the number is even");
+printf("The number is even");
 }
 else
 {
-printf("the number is odd");
+printf("The number is odd");
 }
 return 0;
 }
@@ -499,10 +499,10 @@ c=a+1;
 d=b+1;
 e=a-1;
 f=b-1;
-printf("the incremented value of a =%d", c);
-printf("the incremented value of b =%d", d);
-printf("the decremented value of a =%d", e);
-printf("the decremented value of b =%d", f);
+printf("The incremented value of a =%d", c);
+printf("The incremented value of b =%d", d);
+printf("The decremented value of a =%d", e);
+printf("The decremented value of b =%d", f);
 return 0;
 }
 ```
@@ -527,7 +527,7 @@ P = 1000;
 T = 2;
 R = 3;
 SI = P*T*R/100;
-printf("the simple interest = %d", SI);
+printf("The simple interest = %d", SI);
 return 0;
 }
 ```
@@ -636,7 +636,7 @@ return 0;
 int main()
 {
 char ch ='A';
-printf("the ASCII value of ch is: %d", ch);
+printf("The ASCII value of ch is: %d", ch);
 return 0;
 }
 ```
@@ -718,7 +718,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print:</br>
+> ***Write a program to print the output:</br>
 Einstein [0] = E</br>
 Einstein [1] = I</br>
 Einstein [2] = N</br>
@@ -726,8 +726,7 @@ Einstein [3] = S</br>
 Einstein [4] = T</br>
 Einstein [5] = E</br>
 Einstein [6] = I</br>
-Einstein [7] = N</br>
-using arrays.***
+Einstein [7] = N</br>.***
 
 ---------------------------------------
 
@@ -750,7 +749,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print:</br>
+> ***Write a program to print the output:</br>
 Name of the book = B</br>
 Price of the book = 135.00</br>
 Number of pages = 300</br>
@@ -802,7 +801,7 @@ int main()
 {
 int answer;
 answer = square();
-printf("square of the given number=%d", answer);
+printf("Square of the given number=%d", answer);
 return(0);
 }
 int square()
@@ -819,7 +818,7 @@ return x*x;
 
 ### **Question:**
 
-> ***Write a program To print hello world 10 times.***
+> ***Write a program To print "hello world" 10 times.***
 
 ---------------------------------------
 
@@ -866,12 +865,11 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print:</br>
+> ***Write a program to print the output:</br>
 body [b] = b</br>
 body [o] = o</br>
 body [d] = d</br>
-body [y] = y</br>
-using arrays.***
+body [y] = y</br>.***
 
 ---------------------------------------
 
