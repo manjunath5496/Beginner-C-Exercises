@@ -1075,3 +1075,42 @@ int main()
 }
 ```
 ----------------------------------------
+
+# Question 40
+
+### **Question:**
+
+> ***What would be the output of the following programs:***
+
+----------------------------------------
+
+```C language
+#include <stdio.h>
+int main()
+{
+int i;
+for (i=1; i<=5; i++)
+{
+if (i==3)
+{
+break;
+}
+printf("%d\n", i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+1
+2
+```
+----------------------------------------
+
+
+
+
+
