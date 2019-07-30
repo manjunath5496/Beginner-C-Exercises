@@ -718,16 +718,31 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program To add an item to the end of the list.***
+> ***Write a program to print:</br>
+Einstein [0] = E</br>
+Einstein [1] = I</br>
+Einstein [2] = N</br>
+Einstein [3] = S</br>
+Einstein [4] = T</br>
+Einstein [5] = E</br>
+Einstein [6] = I</br>
+Einstein [7] = N</br>
+using arrays.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-list1 = ["pen", "book", "ball"]
-list1.append("bat")
-print(list1)
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+char name [8] = {' E' , ' I', ' N', ' S', ' T ', ' E', ' I', ' N'};
+for(i=0; i<8; i++)
+printf("\n Element [%d] = %c", i, name[i]);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -735,16 +750,38 @@ print(list1)
 
 ### **Question:**
 
-> ***Write a program To remove an item from the list.***
+> ***Write a program to print:</br>
+Name of the book = B</br>
+Price of the book = 135.00</br>
+Number of pages = 300</br>
+Edition = 8</br>
+using structures.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-list1 = ["pen", "book", "ball"]
-list1.remove("ball")
-print(list1)
+```C language
+#include<stdio.h>
+int main()
+{
+struct book {
+char name;
+float price;
+int pages;
+int edition;
+};
+struct book b1;
+b1.name = 'B';
+b1.price = 135.00;
+b1.pages = 300;
+b1.edition = 8;
+printf("\n Name of the book = %c", b1.name);
+printf("\n Price of the book = %f", b1.price);
+printf("\n Number of pages = %d", b1.pages);
+printf("\n Edition of the book = %d", b1.edition);
+return 0;
+}
 ```
 ----------------------------------------
 
