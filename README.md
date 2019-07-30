@@ -726,7 +726,7 @@ Einstein [3] = S</br>
 Einstein [4] = T</br>
 Einstein [5] = E</br>
 Einstein [6] = I</br>
-Einstein [7] = N</br>.***
+Einstein [7] = N</br>***
 
 ---------------------------------------
 
@@ -869,7 +869,7 @@ return 0;
 body [b] = b</br>
 body [o] = o</br>
 body [d] = d</br>
-body [y] = y</br>.***
+body [y] = y</br>***
 
 ---------------------------------------
 
