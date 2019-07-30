@@ -575,18 +575,25 @@ return 0;
 
 ### **Question:**
 
-> ***Write a Program to Find Absolute value of a Number.***
+> ***Write a Program to print the factorial of the entered number.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-num = int(input("Enter a number: "))
-if num >= 0:
-		print(num)
-else:
-		print(-num)
+```C language
+#include<stdio.h>
+int main()
+{
+int i, n, fact=1 ;
+printf("Enter any number:");
+scanf("%d", &n);
+for(i=1; i<=n; i++)
+fact = fact *i;
+printf("\n Entered number is: %d", n);
+printf("\n The factorial of the entered number %d is: %d", n, fact);
+return 0;
+}
 ```
 ----------------------------------------
 
