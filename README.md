@@ -295,7 +295,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print the Multiplication table of a number.***
+> ***Write a program to print the multiplication table of a number.***
 
 ---------------------------------------
 
@@ -320,16 +320,22 @@ return 0;
 
 ### **Question:**
 
-> ***Let's say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list 'a' and makes a new list that has only the even elements of this list in it.***
+> ***Write a program to print the product of the first 10 digits.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-b = [number for number in a if number % 2 == 0]
-print(b)
+```C language
+#include<stdio.h>
+int main()
+{
+int i, product = 1;
+for( i=1; i<=10; i++)
+product = product * i;
+printf("The product of the first 10 digits =%d", product);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -337,20 +343,28 @@ print(b)
 
 ### **Question:**
 
-> ***Ask the user for a string and print out whether this string is a palindrome or not (A palindrome is a string that reads the same forwards and backwards).***
+> ***Write a program to print whether the given number is positive or negative.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a=input("Please enter a word: ")
-c = a.casefold()
-b = reversed(c)
-if list(c) == list(b):
-   print("It is palindrome")
-else:
-   print("It is not palindrome")
+```C language
+#include<stdio.h>
+int main()
+{
+int a;
+a = -35;
+if(a>0)
+{
+printf("number is positive");
+}
+else
+{
+printf(" number entered is negative");
+}
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -358,17 +372,31 @@ else:
 
 ### **Question:**
 
-> ***Take two lists, say for example these two: a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes.***
+> ***Write a program to check the equivalence of two numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-result = [i for i in set(a) if i in b]
-print(result)
+```C language
+#include<stdio.h>
+int main()
+{
+int x, y;
+printf("Enter any number:");
+scanf ("%d", &x);
+printf("Enter any number:");
+scanf ("%d", &y);
+if(x-y==0)
+{
+printf("the two numbers are equivalent");
+}
+else
+{
+printf("the number are not equivalent");
+}
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -376,19 +404,25 @@ print(result)
 
 ### **Question:**
 
-> ***Write a program to add a string to text file.***
+> ***Write a program to print the remainder of two numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-file = open("testfile.txt","w") 
-file.write("Hello World") 
-file.write("This is our new text file") 
-file.write("and this is another line.") 
-file.write("Why? Because we can.") 
-file.close()
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b, c;
+printf("Enter any number:");
+scanf("%d", &a);
+printf("Enter any number:");
+scanf("%d", &b);
+c = a%b;
+printf("the remainder of a and b = %d", c);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -396,18 +430,29 @@ file.close()
 
 ### **Question:**
 
-> ***Write a program to read a file and display its contents on console.***
+> ***Write a program to print the given number is even or odd.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-with open('testfile.txt') as f:
-  	line = f.readline()
-  	while line:
-  		print(line)
-  		line = f.readline()
+```C language
+#include<stdio.h>
+int main()
+{
+int a;
+printf("Enter any number:");
+scanf ("%d", &a);
+if(a%2 = = 0)
+{
+printf("the number is even");
+}
+else
+{
+printf("the number is odd");
+}
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -415,17 +460,21 @@ with open('testfile.txt') as f:
 
 ### **Question:**
 
-> ***Take two sets, say for example these two: a = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89} b = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13} and write a program that returns a set that contains only the elements that are common between the sets.***
+> ***Write a program to print the characters from A to Z.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-a = {1, 1, 2, 2, 3, 5, 8, 13, 21, 34, 55, 89}
-b = {1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}
-c = set(a) & set(b)  
-print(c)
+```C language
+#include<stdio.h>
+int main()
+{
+char a;
+for( a='A'; a<='Z'; a++)
+printf("%c\n", a);
+return 0;
+}
 ```
 ----------------------------------------
 
@@ -433,16 +482,29 @@ print(c)
 
 ### **Question:**
 
-> ***Write a program to split the characters of the given string into a list.***
+> ***Write a program to find the incremented and decremented values of two numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-s = "mystring"
-l = list(s)
-print (l)
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b, c, d, e, f;
+a = 10;
+b=12;
+c=a+1;
+d=b+1;
+e=a-1;
+f=b-1;
+printf("the incremented value of a =%d", c);
+printf("the incremented value of b =%d", d);
+printf("the decremented value of a =%d", e);
+printf("the decremented value of b =%d", f);
+return 0;
+}
 ```
 ----------------------------------------
 
