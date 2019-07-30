@@ -1110,7 +1110,32 @@ return 0;
 ```
 ----------------------------------------
 
+```C language
+#include <stdio.h>
+int main()
+{
+int i;
+for(i=1;i<=5;i++)
+{
+if(i==3)
+{
+goto HAI;
+}
+printf("\n %d ",i);
+}
+HAI : printf("\n Linux");
+}
+```
+----------------------------------------
 
+<strong>Solution: </strong>
+
+```C language
+1
+2
+Linux
+```
+----------------------------------------
 
 
 
