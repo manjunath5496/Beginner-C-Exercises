@@ -1009,3 +1009,39 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 38
+
+### **Question:**
+
+> ***What will be the output of the below program:***
+
+---------------------------------------
+
+```C language
+#include <stdio.h>
+int main()
+{
+int i;
+for (i=1; i<=5; i++)
+{
+if (i==3)
+{
+continue;
+}
+printf("%d\n ", i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+1
+2
+4
+5
+```
+----------------------------------------
