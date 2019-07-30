@@ -1137,5 +1137,22 @@ Linux
 ```
 ----------------------------------------
 
+```C language
+#include<stdio.h>
+int main()
+{
+int i = 54;
+int y = i<<1;
+printf("The value of y = %d", y);
+return 0;
+}
+```
+----------------------------------------
 
+<strong>Solution: </strong>
+
+```C language
+The value of y = 108
+```
+----------------------------------------
 
