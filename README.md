@@ -934,11 +934,11 @@ int main()
 int a =2;
 if( isalpha(a) )
 {
-printf(" the character a is an alphabet");
+printf(" The character a is an alphabet");
 }
 else
 {
-printf("the character a is not an alphabet");
+printf("The character a is not an alphabet");
 }
 return 0;
 }
