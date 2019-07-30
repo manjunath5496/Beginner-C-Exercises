@@ -945,6 +945,45 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 36
 
+### **Question:**
+
+> ***Write a program to calculate the discounted price and the total price after discount</br>
+Given:</br>
+If purchase value is greater than 1000, 10% discount</br>
+If purchase value is greater than 5000, 20% discount</br>
+If purchase value is greater than 10000, 30% discount.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+double PV, dis, total;
+printf("Enter purchased value:");
+scanf("%lf", &PV);
+if(PV>1000)
+{
+printf("\n Discount=%lf", PV* 0.1);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+else if(PV>5000)
+{
+printf("\n Discount =%lf", PV* 0.2);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+else
+{
+printf("\n Discount=%lf", PV* 0.3);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
