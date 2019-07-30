@@ -543,17 +543,31 @@ return 0;
 
 <strong>Solution: </strong>
 
-```python
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
-if (a > b) and (a > c):
-   largest = a
-elif (b > a) and (b > c):
-   largest = b
-else:
-   largest = c
-print("The largest number is", largest)
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b, c;
+printf("Enter any number:");
+scanf("%d", &a);
+printf("Enter any number:");
+scanf("%d", &b);
+printf("Enter any number:");
+scanf("%d", &c);
+if(a>b&&a>c)
+{
+printf("%d is greater than %d and %d", a, b, c);
+}
+else if (b>a&&b>c)
+{
+printf("%d is greater than %d and %d", b, a, c);
+}
+else
+{
+printf("%d is greater than %d and %d", c, b, a);
+}
+return 0;
+}
 ```
 ----------------------------------------
 
