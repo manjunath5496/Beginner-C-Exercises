@@ -986,4 +986,26 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 37
 
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i = 1;
+while (i<=10)
+{
+printf("%d\n", i++);
+}
+return 0;
+}
+```
+----------------------------------------
