@@ -1196,3 +1196,26 @@ Dennis
 The name you entered = Denni
 ```
 ----------------------------------------
+
+```C language
+#include <stdio.h>
+int main(){
+for( ; ; ) {
+printf("This loop will run forever.\n");
+}
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever.
+This loop will run forever. ......... 
+```
+----------------------------------------
