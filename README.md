@@ -789,16 +789,29 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program To print the number of elements in an array.***
+> ***Write a program To Find Square Of A Number Using Functions.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-list1 = ["pen", "book", "ball"]
-a = len(list1)
-print(a)
+```C language
+#include<stdio.h>
+int square();
+int main()
+{
+int answer;
+answer = square();
+printf("square of the given number=%d", answer);
+return(0);
+}
+int square()
+{
+int x;
+printf("Enter any integer:");
+scanf("%d", &x);
+return x*x;
+}
 ```
 ----------------------------------------
 
