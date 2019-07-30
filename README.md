@@ -512,18 +512,24 @@ return 0;
 
 ### **Question:**
 
-> ***Create a program that asks the user for a number and then prints out a list of all the divisors of that number.***
+> ***Write a program to calculate the simple interest.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```python
-n=int(input("Enter an integer: "))
-print("The divisors of the number are: ")
-for i in range(1,n+1):
-    if(n%i==0):
-        print(i)
+```C language
+#include<stdio.h>
+int main()
+{
+int P,T, R, SI;
+P = 1000;
+T = 2;
+R = 3;
+SI = P*T*R/100;
+printf("the simple interest = %d", SI);
+return 0;
+}
 ```
 ----------------------------------------
 
