@@ -393,7 +393,7 @@ printf("The two numbers are equivalent");
 }
 else
 {
-printf("The number are not equivalent");
+printf("The two numbers are not equivalent");
 }
 return 0;
 }
