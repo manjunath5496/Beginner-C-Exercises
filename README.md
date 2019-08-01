@@ -1279,7 +1279,7 @@ return 0;
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(2).pdf" style="text-decoration:none;">Functional C</a></b></li>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(3).pdf" style="text-decoration:none;">C: The Complete Reference</a></b></li>
  <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(4).pdf" style="text-decoration:none;">C: A Reference Manual </a></b></li>                              
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(5).pdf" style="text-decoration:none;">Let UsC </a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(5).pdf" style="text-decoration:none;">Let Us C </a></b></li>
                                 
  <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(6).pdf" style="text-decoration:none;">Mastering Algorithms with C</a></b></li>
                           
