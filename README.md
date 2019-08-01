@@ -1183,7 +1183,7 @@ int main()
 int a, b;
 a= - 2;
 b= abs(a);
-printf( "Absolute value = %d", b);
+printf("Absolute value = %d", b);
 return 0;
 }
 ```
