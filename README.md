@@ -1273,3 +1273,21 @@ return 0;
 </br>
 <h3>Books:</h3>
 <hr>
+
+<ul>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(1).pdf" style="text-decoration:none;">The C Puzzle Book </a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(2).pdf" style="text-decoration:none;">Functional C</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(3).pdf" style="text-decoration:none;">C: The Complete Reference</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(4).pdf" style="text-decoration:none;">C: A Reference Manual </a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(5).pdf" style="text-decoration:none;">Let UsC </a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(6).pdf" style="text-decoration:none;">Mastering Algorithms with C</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(7).pdf" style="text-decoration:none;">C: How to Program </a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(8).pdf" style="text-decoration:none;">Test Your C Skills</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">The C Programming Language Book</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(10).pdf" style="text-decoration:none;">C For Dummies</a></b></li>  
+ </ul>
+	
+
