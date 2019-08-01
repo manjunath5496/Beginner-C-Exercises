@@ -1179,7 +1179,7 @@ The value of y = 27
 #include<stdio.h>
 int main()
 {
-char ch [5];
+char ch;
 printf( "Enter the name: ");
 scanf("%s", &ch);
 printf( "The name you entered = %s", ch);
