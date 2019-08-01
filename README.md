@@ -934,7 +934,7 @@ int main()
 int a =2;
 if(isalpha(a))
 {
-printf(" The character a is an alphabet");
+printf("The character a is an alphabet");
 }
 else
 {
