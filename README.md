@@ -1177,12 +1177,13 @@ The value of y = 27
 
 ```C language
 #include<stdio.h>
+#include <stdlib.h>
 int main()
 {
-char ch;
-printf( "Enter the name: ");
-scanf("%s", &ch);
-printf( "The name you entered = %s", ch);
+int a, b;
+a= - 2;
+b= abs(a);
+printf( "Absolute value = %d", b);
 return 0;
 }
 ```
@@ -1191,10 +1192,8 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-Enter the name:
-Dennis
-The name you entered = Dennis
-```
+Absolute value = 2
+ ```
 ----------------------------------------
 
 ```C language
