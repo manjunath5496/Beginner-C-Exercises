@@ -932,7 +932,7 @@ linux
 int main()
 {
 int a =2;
-if( isalpha(a) )
+if(isalpha(a))
 {
 printf(" The character a is an alphabet");
 }
