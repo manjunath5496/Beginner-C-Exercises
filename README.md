@@ -361,7 +361,7 @@ printf("Number is positive");
 }
 else
 {
-printf(" Number entered is negative");
+printf("Number entered is negative");
 }
 return 0;
 }
