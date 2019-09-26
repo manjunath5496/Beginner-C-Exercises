@@ -1288,6 +1288,32 @@ return 0;
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">The C Programming Language Book</a></b></li>
                                 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(10).pdf" style="text-decoration:none;">C For Dummies</a></b></li>  
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(1).pdf" style="text-decoration:none;">Sams Teach Yourself C in 21 Days </a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(2).pdf" style="text-decoration:none;">C Programming: The ultimate way to learn the fundamentals of the C language</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(3).pdf" style="text-decoration:none;">C Programming Tutorial</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(4).pdf" style="text-decoration:none;">Example C Programming Codes </a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(5).pdf" style="text-decoration:none;">C Tutorial</a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(6).pdf" style="text-decoration:none;">Learn C the Hard Way</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(7).pdf" style="text-decoration:none;">Expert C Programming: Deep C Secrets </a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(8).pdf" style="text-decoration:none;">C in Depth</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(9).pdf" style="text-decoration:none;">Practical C Programming</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(10).pdf" style="text-decoration:none;">The C Programming Language</a></b></li> 
+
+
+
+
+
+
+
+
+
+
+
+
  </ul>
 	
 
