@@ -1285,7 +1285,7 @@ return 0;
                           
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(7).pdf" style="text-decoration:none;">C: How to Program </a></b></li>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(8).pdf" style="text-decoration:none;">Test Your C Skills</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">The C Programming Language Book</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">The C Programming Language </a></b></li>
                                 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(10).pdf" style="text-decoration:none;">C For Dummies</a></b></li>  
 
@@ -1301,7 +1301,7 @@ return 0;
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(8).pdf" style="text-decoration:none;">C in Depth</a></b></li>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(9).pdf" style="text-decoration:none;">Practical C Programming</a></b></li>
                                 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(10).pdf" style="text-decoration:none;">The C Programming Language</a></b></li> 
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(10).pdf" style="text-decoration:none;">C Traps and Pitfalls</a></b></li> 
 
 
 
