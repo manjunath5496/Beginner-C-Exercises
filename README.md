@@ -2136,6 +2136,28 @@ Some Were Meant for C</a></li>
 <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(20).pdf" style="text-decoration:none;"> PVC.js: visualizing C programs on web browsers for novices</a></li>
 
 <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(21).pdf" style="text-decoration:none;">Teaching Security in Introductory C-Programming Courses</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(22).pdf" style="text-decoration:none;">The Evolution of C Programming Practices: A Study of the Unix Operating System 1973–2015</a></li> 
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(23).pdf" style="text-decoration:none;"> Research and Development of C Language Programming Experiment Assistant Management Platform Based on Hybrid Architecture</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(24).pdf" style="text-decoration:none;">Programming Methodology
+in C</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(25).pdf" style="text-decoration:none;">Automatic Predicate Abstraction of C Programs</a></li> 
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(26).pdf" style="text-decoration:none;"> Why Functional Programming
+Matters</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(27).pdf" style="text-decoration:none;">Beyond the PDP-11: Architectural support for a memory-safe C abstract machine</a></li>
+
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(28).pdf" style="text-decoration:none;"> Evolving a language in and for the real world: C++ 1991-2006</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(29).pdf" style="text-decoration:none;">The Three Pillars of Machine Programming</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(30).pdf" style="text-decoration:none;">Finding and Understanding Bugs in C Compilers</a></li>
+
 </ul>
 
 </br>
