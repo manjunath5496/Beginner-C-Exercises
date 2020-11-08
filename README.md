@@ -1270,6 +1270,421 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 42
+
+### **Question:**
+
+> ***Write a program to Display Fibonacci Sequence.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+
+#include <stdio.h>
+int main() {
+    int i, n, t1 = 0, t2 = 1, nextTerm;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+    printf("Fibonacci Series: ");
+
+    for (i = 1; i <= n; ++i) {
+        printf("%d, ", t1);
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 43
+
+### **Question:**
+
+> ***Write a program to Find GCD of two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+int main()
+{
+    int n1, n2, i, gcd;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &n1, &n2);
+
+    for(i=1; i <= n1 && i <= n2; ++i)
+    {
+        // Checks if i is factor of both integers
+        if(n1%i==0 && n2%i==0)
+            gcd = i;
+    }
+
+    printf("G.C.D of %d and %d is %d", n1, n2, gcd);
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 44
+
+### **Question:**
+
+> ***Write a program to Find LCM of two Numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+int main() {
+    int n1, n2, max;
+    printf("Enter two positive integers: ");
+    scanf("%d %d", &n1, &n2);
+
+    // maximum number between n1 and n2 is stored in min
+    max = (n1 > n2) ? n1 : n2;
+
+    while (1) {
+        if (max % n1 == 0 && max % n2 == 0) {
+            printf("The LCM of %d and %d is %d.", n1, n2, max);
+            break;
+        }
+        ++max;
+    }
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 45
+
+### **Question:**
+
+> ***Write a program to Reverse a Sentence Using Recursion.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+void reverseSentence();
+int main() {
+    printf("Enter a sentence: ");
+    reverseSentence();
+    return 0;
+}
+
+void reverseSentence() {
+    char c;
+    scanf("%c", &c);
+    if (c != '\n') {
+        reverseSentence();
+        printf("%c", c);
+    }
+}
+```
+----------------------------------------
+
+# Question 46
+
+### **Question:**
+
+> ***Write a program to Swap Numbers in Cyclic Order Using Call by Reference.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+void cyclicSwap(int *a, int *b, int *c);
+int main() {
+    int a, b, c;
+
+    printf("Enter a, b and c respectively: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    printf("Value before swapping:\n");
+    printf("a = %d \nb = %d \nc = %d\n", a, b, c);
+
+    cyclicSwap(&a, &b, &c);
+
+    printf("Value after swapping:\n");
+    printf("a = %d \nb = %d \nc = %d", a, b, c);
+
+    return 0;
+}
+
+void cyclicSwap(int *n1, int *n2, int *n3) {
+    int temp;
+    // swapping in cyclic order
+    temp = *n2;
+    *n2 = *n1;
+    *n1 = *n3;
+    *n3 = temp;
+}
+```
+----------------------------------------
+
+# Question 47
+
+### **Question:**
+
+> ***Write a program to Find Largest Number Using Dynamic Memory Allocation.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int num;
+    float *data;
+    printf("Enter the total number of elements: ");
+    scanf("%d", &num);
+
+    // Allocating memory for num elements
+    data = (float *)calloc(num, sizeof(float));
+    if (data == NULL) {
+        printf("Error!!! memory not allocated.");
+        exit(0);
+    }
+
+    // Storing numbers entered by the user.
+    for (int i = 0; i < num; ++i) {
+        printf("Enter Number %d: ", i + 1);
+        scanf("%f", data + i);
+    }
+
+    // Finding the largest number
+    for (int i = 1; i < num; ++i) {
+        if (*data < *(data + i))
+            *data = *(data + i);
+    }
+    printf("Largest number = %.2f", *data);
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 48
+
+### **Question:**
+
+> ***Write a program to Sort Elements in Lexicographical Order.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+   char str[5][50], temp[50];
+   printf("Enter 5 words: ");
+
+   // Getting strings input
+   for (int i = 0; i < 5; ++i) {
+      fgets(str[i], sizeof(str[i]), stdin);
+   }
+
+   // storing strings in the lexicographical order
+   for (int i = 0; i < 5; ++i) {
+      for (int j = i + 1; j < 5; ++j) {
+
+         // swapping strings if they are not in the lexicographical order
+         if (strcmp(str[i], str[j]) > 0) {
+            strcpy(temp, str[i]);
+            strcpy(str[i], str[j]);
+            strcpy(str[j], temp);
+         }
+      }
+   }
+
+   printf("\nIn the lexicographical order: \n");
+   for (int i = 0; i < 5; ++i) {
+      fputs(str[i], stdout);
+   }
+   return 0;
+}
+```
+----------------------------------------
+
+
+
+# Question 49
+
+### **Question:**
+
+> ***Write a program to Add Two Complex Numbers by Passing Structure to a Function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+typedef struct complex {
+    float real;
+    float imag;
+} complex;
+
+complex add(complex n1, complex n2);
+
+int main() {
+    complex n1, n2, result;
+
+    printf("For 1st complex number \n");
+    printf("Enter the real and imaginary parts: ");
+    scanf("%f %f", &n1.real, &n1.imag);
+    printf("\nFor 2nd complex number \n");
+    printf("Enter the real and imaginary parts: ");
+    scanf("%f %f", &n2.real, &n2.imag);
+
+    result = add(n1, n2);
+
+    printf("Sum = %.1f + %.1fi", result.real, result.imag);
+    return 0;
+}
+
+complex add(complex n1, complex n2) {
+    complex temp;
+    temp.real = n1.real + n2.real;
+    temp.imag = n1.imag + n2.imag;
+    return (temp);
+}
+```
+----------------------------------------
+
+
+# Question 50
+
+### **Question:**
+
+> ***Write a program to Write a Sentence to a File.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char sentence[1000];
+
+    // creating file pointer to work with files
+    FILE *fptr;
+
+    // opening file in writing mode
+    fptr = fopen("program.txt", "w");
+
+    // exiting program 
+    if (fptr == NULL) {
+        printf("Error!");
+        exit(1);
+    }
+    printf("Enter a sentence:\n");
+    fgets(sentence, sizeof(sentence), stdin);
+    fprintf(fptr, "%s", sentence);
+    fclose(fptr);
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 51
+
+### **Question:**
+
+> ***Write a program to Read a Line From a File and Display it.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+
+#include <stdio.h>
+#include <stdlib.h> // For exit() function
+int main() {
+    char c[1000];
+    FILE *fptr;
+    if ((fptr = fopen("program.txt", "r")) == NULL) {
+        printf("Error! opening file");
+        // Program exits if file pointer returns NULL.
+        exit(1);
+    }
+
+    // reads text until newline is encountered
+    fscanf(fptr, "%[^\n]", c);
+    printf("Data from the file:\n%s", c);
+    fclose(fptr);
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 52
+
+### **Question:**
+
+> ***Write a program to Store Data in Structures Dynamically.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+struct course {
+    int marks;
+    char subject[30];
+};
+
+int main() {
+    struct course *ptr;
+    int i, noOfRecords;
+    printf("Enter the number of records: ");
+    scanf("%d", &noOfRecords);
+
+    // Memory allocation for noOfRecords structures
+    ptr = (struct course *)malloc(noOfRecords * sizeof(struct course));
+    for (i = 0; i < noOfRecords; ++i) {
+        printf("Enter the name of the subject and marks respectively:\n");
+        scanf("%s %d", (ptr + i)->subject, &(ptr + i)->marks);
+    }
+
+    printf("Displaying Information:\n");
+    for (i = 0; i < noOfRecords; ++i)
+        printf("%s\t%d\n", (ptr + i)->subject, (ptr + i)->marks);
+
+    return 0;
+}
+
+```
+----------------------------------------
 </br>
 <h3>Books:</h3>
 <hr>
