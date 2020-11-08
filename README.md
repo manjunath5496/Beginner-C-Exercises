@@ -1685,6 +1685,412 @@ int main() {
 
 ```
 ----------------------------------------
+
+
+
+
+# Question 53
+### **Question:**
+
+> ***Write a program to Check if a Matrix is Invertible.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include<stdio.h>
+ int main(){
+ 
+  int a[3][3], i, j;
+ 
+  long determinant;
+  printf("Enter the 9 elements of matrix: ");
+  for(i = 0 ;i < 3;i++)
+      for(j = 0;j < 3;j++)
+           scanf("%d", &a[i][j]);
+ 
+  printf("\nThe matrix is\n");
+  for(i = 0;i < 3; i++){
+      printf("\n");
+      for(j = 0;j < 3; j++)
+           printf("%d\t", a[i][j]);
+  }
+  determinant = a[0][0] * ((a[1][1]*a[2][2]) - (a[2][1]*a[1][2])) -a[0][1] * (a[1][0]
+   * a[2][2] - a[2][0] * a[1][2]) + a[0][2] * (a[1][0] * a[2][1] - a[2][0] * a[1][1]);
+   if ( determinant == 0)
+       printf("\nMatrix is NOT invertible");
+   else
+       printf("\nThe given matrix has an inverse!!!");
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 54
+
+### **Question:**
+
+> ***Write a program to Compute Determinant of a Matrix.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include<stdio.h>
+ 
+int main(){
+ 
+  int a[3][3], i, j;
+ 
+  long determinant;
+  printf("Enter the 9 elements of matrix: ");
+  for(i = 0 ;i < 3;i++)
+      for(j = 0;j < 3;j++)
+           scanf("%d", &a[i][j]);
+ 
+  printf("\nThe matrix is\n");
+  for(i = 0;i < 3; i++){
+      printf("\n");
+      for(j = 0;j < 3; j++)
+           printf("%d\t", a[i][j]);
+  }
+ 
+  determinant = a[0][0] * ((a[1][1]*a[2][2]) - (a[2][1]*a[1][2])) -a[0][1] * (a[1][0]
+   * a[2][2] - a[2][0] * a[1][2]) + a[0][2] * (a[1][0] * a[2][1] - a[2][0] * a[1][1]);
+ 
+  printf("\nDeterminant of 3X3 matrix: %ld", determinant);
+ 
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 55
+
+### **Question:**
+
+> ***Write a program to Implement Hash Tables.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+ 
+struct data 
+{
+	int key;
+	int value;
+};
+ 
+struct data *array;
+int capacity = 10;
+int size = 0;
+ 
+/* this function gives a unique hash code to the given key */
+int hashcode(int key)
+{
+	return (key % capacity);
+}
+ 
+/* it returns prime number just greater than array capacity */
+int get_prime(int n)
+{
+	if (n % 2 == 0) 
+        {
+		n++;
+	}
+	for (; !if_prime(n); n += 2);
+ 
+	return n;
+}
+ 
+/* to check if given input (i.e n) is prime or not */
+int if_prime(int n)
+{
+	int i;
+	if ( n == 1  ||  n == 0) 
+        {
+		return 0;
+	}
+	for (i = 2; i < n; i++) 
+        {
+		if (n % i == 0) 
+                {
+			return 0;
+		}
+	}
+	return 1;
+}
+ 
+void init_array()
+{
+	int i;
+	capacity = get_prime(capacity);
+	array = (struct data*) malloc(capacity * sizeof(struct data));
+	for (i = 0; i < capacity; i++) 
+        {
+		array[i].key = 0;
+		array[i].value = 0;
+	}
+}
+ 
+/* to insert a key in the hash table */
+void insert(int key)
+{
+	int index = hashcode(key);
+	if (array[index].value == 0) 
+        {
+		/*  key not present, insert it  */
+		array[index].key = key;
+		array[index].value = 1;
+		size++;
+		printf("\n Key (%d) has been inserted \n", key);
+	}
+	else if(array[index].key == key) 
+        {
+		/*  updating already existing key  */
+		printf("\n Key (%d) already present, hence updating its value \n", key);
+		array[index].value += 1;
+	}
+	else
+        {
+		/*  key cannot be insert as the index is already containing some other key  */
+		printf("\n ELEMENT CANNOT BE INSERTED \n");
+	}
+}
+ 
+/* to remove a key from hash table */
+void remove_element(int key)
+{
+	int index  = hashcode(key);
+	if(array[index].value == 0)
+        {
+		printf("\n This key does not exist \n");
+	}
+	else {
+		array[index].key = 0;
+		array[index].value = 0;
+		size--;
+		printf("\n Key (%d) has been removed \n", key);
+	}
+}
+ 
+/* to display all the elements of a hash table */
+void display()
+{
+	int i;
+	for (i = 0; i < capacity; i++)
+        {
+		if (array[i].value == 0)
+                {
+			printf("\n Array[%d] has no elements \n");
+		}
+		else 
+                {
+			printf("\n array[%d] has elements -:\n key(%d) and value(%d) \t", i, array[i].key, array[i].value);
+		}
+	}
+}
+ 
+int size_of_hashtable()
+{
+	return size;
+}
+ 
+void main()
+{
+	int choice, key, value, n, c;
+	clrscr();
+ 
+	init_array();
+ 
+	do {
+		printf("\n Implementation of Hash Table in C \n\n");
+		printf("MENU-:  \n1.Inserting item in the Hash Table" 
+                               "\n2.Removing item from the Hash Table"
+		               "\n3.Check the size of Hash Table" 
+                               "\n4.Display a Hash Table"
+		       "\n\n Please enter your choice -:");
+ 
+		scanf("%d", &choice);
+ 
+		switch(choice) 
+                {
+ 
+		case 1:
+ 
+		      printf("Inserting element in Hash Table\n");
+		      printf("Enter key -:\t");
+		      scanf("%d", &key);
+		      insert(key);
+ 
+		      break;
+ 
+		case 2:
+ 
+		      printf("Deleting in Hash Table \n Enter the key to delete-:");
+		      scanf("%d", &key);
+		      remove_element(key);
+ 
+		      break;
+ 
+		case 3:
+ 
+		      n = size_of_hashtable();
+		      printf("Size of Hash Table is-:%d\n", n);
+ 
+		      break;
+ 
+		case 4:
+ 
+		      display();
+ 
+		      break;
+ 
+		default:
+ 
+		       printf("Wrong Input\n");
+ 
+		}
+ 
+		printf("\n Do you want to continue-:(press 1 for yes)\t");
+		scanf("%d", &c);
+ 
+	}while(c == 1);
+ 
+	getch();
+ 
+}
+
+```
+----------------------------------------
+
+ 
+# Question 56
+
+### **Question:**
+
+> ***Write a program to Check if a Matrix is a Sparse Matrix.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <stdio.h>
+ 
+void main ()
+{
+    int matrix[10][10];
+    int i, j, m, n;
+    int sparse_counter = 0;
+ 
+    printf("Enter the order of the matix \n");
+    scanf("%d %d", &m, &n);
+    printf("Enter the elements of the matix \n");
+    for (i = 0; i < m; ++i)
+    {
+        for (j = 0; j < n; ++j)
+        {
+            scanf("%d", &matrix[i][j]);
+            if (matrix[i][j] == 0)
+            {
+                ++sparse_counter;
+            }
+        }
+    }
+    if (sparse_counter > ((m * n) / 2))
+    {
+        printf("The given matrix is Sparse Matrix !!! \n");
+    }
+    else
+        printf("The given matrix is not a Sparse Matrix \n");
+    printf("There are %d number of Zeros.", sparse_counter);
+}
+```
+----------------------------------------
+
+ 
+# Question 57
+
+### **Question:**
+
+> ***Write a program to Perform Complex Number Multiplication.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include<stdio.h>
+typedef struct COMPLEX{
+    int a;
+    int b;
+}Complex;
+Complex multiply(Complex, Complex);
+int main(){
+    int a1, b1, a2, b2;
+    Complex x, y, z;
+    printf("Enter first complex number : ");
+    scanf("%d+%di", &a1, &b1);
+    printf("\nEnter second complex number : ");
+    scanf("%d+%di", &a2, &b2);
+    x.a = a1;
+    x.b = b1;
+    y.a = a2; 
+    y.b = b2;
+    z = multiply(x, y);
+    printf("\nAfter multiplication: %d+%di", z.a, z.b);
+    return 0;
+}
+Complex multiply(Complex x, Complex y){
+    Complex z;
+    z.a = x.a * y.a - x.b * y.b;
+    z.b = x.a * y.b + x.b * y.a;
+    return z;
+}
+```
+----------------------------------------
+# Question 58
+
+### **Question:**
+
+> ***Write a program to Generate Random Hexadecimal Bytes.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```c
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    int length;
+    char str[] = "0123456789ABCDEF";
+    /* Seed number for rand() */
+    srand((unsigned int) time(0) + getpid());
+    length = rand() % 15 + 8;
+ 
+    while(length--) {
+        putchar(str[rand() % 16]);
+        srand(rand());
+    }
+    printf("\n");
+ 
+    return EXIT_SUCCESS;
+}
+```
+----------------------------------------
+
+
 </br>
 <h3>Books:</h3>
 <hr>
