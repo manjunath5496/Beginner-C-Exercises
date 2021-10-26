@@ -1990,9 +1990,9 @@ void main ()
     int i, j, m, n;
     int sparse_counter = 0;
  
-    printf("Enter the order of the matix \n");
+    printf("Enter the order of the matrix \n");
     scanf("%d %d", &m, &n);
-    printf("Enter the elements of the matix \n");
+    printf("Enter the elements of the matrix \n");
     for (i = 0; i < m; ++i)
     {
         for (j = 0; j < n; ++j)
