@@ -157,7 +157,30 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 7
 
+### **Question:**
+
+> ***Write a program that that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the said values are valid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b, mult;
+printf("\nEnter the first number: "); 
+scanf("%d", &a);
+printf("\nEnter the second number: ");
+scanf("%d", &b);
+mult = a * b;
+printf("\nProduct of the above two numbers is: %d", mult);
+return 0;
+}
+```
+----------------------------------------
 
 
 
