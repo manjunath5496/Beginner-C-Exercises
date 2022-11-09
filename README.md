@@ -132,7 +132,7 @@ return 0;
 ```C language
 #include<stdio.h>
 int main() {
-int x, y, z, result, max;
+int x, y, z;
 printf("\nEnter the first number: "); 
 scanf("%d", &x);
 printf("\nEnter the second number: ");
