@@ -161,7 +161,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program that that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the said values are valid.***
+> ***Write a program that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the entered values are valid.***
 
 ---------------------------------------
 
