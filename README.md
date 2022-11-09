@@ -189,20 +189,11 @@ return 0;
 ```
 ----------------------------------------
 
-
-
-
-
-
-
-
-
-
-# Question 2
+# Question 8
 
 ### **Question:**
 
-> ***Write a program to find the area of a circle.***
+> ***Write a program that reads an integer between 1 and 7 and print the day of the week in English.***
 
 ---------------------------------------
 
@@ -210,16 +201,32 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
-int r, area;
-r = 2;
-area = 3.14 * r * r;
-printf("The area of the circle = %d", area);
+int main() {
+int day;
+printf("\nEnter a number between 1 to 7 to get the day name: ");
+scanf("%d", &day);
+switch(day) {
+case 1 : printf("Monday\n"); break;
+case 2 : printf("Tuesday\n"); break;
+case 3 : printf("Wednesday\n"); break;
+case 4 : printf("Thursday\n"); break;
+case 5 : printf("Friday\n"); break;
+case 6 : printf("Saturday\n"); break;
+case 7 : printf("Sunday\n"); break;
+default : printf("Enter a number between 1 to 7.");
+}
 return 0;
 }
 ```
 ----------------------------------------
+
+
+
+
+
+
+
+
 
 # Question 3
 
