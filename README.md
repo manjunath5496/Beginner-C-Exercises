@@ -86,7 +86,7 @@ scanf("%d", &a);
 printf("\nEnter the second number: ");
 scanf("%d", &b);
 sum = a + b;
-printf("Sum of the above two numbers is: %d\n", sum);
+printf("\nSum of the above two numbers is: %d", sum);
 return 0;
 }
 ```
