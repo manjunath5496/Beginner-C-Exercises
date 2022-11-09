@@ -37,7 +37,7 @@ int perimeter = 2*(height + width);
 printf("Perimeter of the rectangle is: %d cm\n", perimeter);
 int area = height * width;
 printf("Area of the rectangle is: %d square cm\n", area);
-return(0);
+return 0;
 }
 ```
 ----------------------------------------
@@ -61,7 +61,7 @@ float perimeter = 2*3.14*radius;
 printf("Perimeter of the circle is: %f cm\n", perimeter);
 float area = 3.14*radius*radius;
 printf("Area of the circle is: %f square cm\n", area);
-return(0);
+return 0;
 }
 ```
 ----------------------------------------
