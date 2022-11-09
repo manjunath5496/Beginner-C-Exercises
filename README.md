@@ -139,6 +139,7 @@ printf("\nEnter the second number: ");
 scanf("%d", &y);
 printf("\nEnter the third number: ");
 scanf("%d", &z);
+
 // if x is greater than both y and z, x is the largest
 if (x >= y && x >= z)
 printf("\n%d is the largest number.", x);
