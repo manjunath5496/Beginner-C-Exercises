@@ -18,7 +18,29 @@ return 0;
 ----------------------------------------
 
 
+# Question 2
 
+### **Question:**
+
+> ***Write a program to compute the perimeter and area of a rectangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h> 
+int main() {
+int height = 8;
+int width = 5;
+int perimeter = 2*(height + width);
+printf("Perimeter of the rectangle is: %d cm\n", perimeter);
+int area = height * width;
+printf("Area of the rectangle is: %d square cm\n", area);
+return(0);
+}
+```
+----------------------------------------
 
 
 
