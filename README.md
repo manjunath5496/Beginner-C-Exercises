@@ -170,13 +170,20 @@ return 0;
 ```C language
 #include<stdio.h>
 int main() {
-int a, b, mult;
+float  x, y, z;
 printf("\nEnter the first number: "); 
-scanf("%d", &a);
+scanf("%f", &x);
 printf("\nEnter the second number: ");
-scanf("%d", &b);
-mult = a * b;
-printf("\nProduct of the above two numbers is: %d", mult);
+scanf("%f", &y);
+printf("\nEnter the third number: ");
+scanf("%f", &z);
+
+if(x < (y+z) && y < (x+z) && z < (y+x)) {  
+printf("\nPerimeter of the triangle is: %f\n", x+y+z);	 
+}
+else {
+printf("\nIt is impossible to form a triangle.");
+}
 return 0;
 }
 ```
