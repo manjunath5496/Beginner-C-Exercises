@@ -78,7 +78,7 @@ return(0);
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 int a, b, sum;
 printf("\nEnter the first number: "); 
@@ -104,7 +104,7 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 int a, b, mult;
 printf("\nEnter the first number: "); 
@@ -119,6 +119,42 @@ return 0;
 ----------------------------------------
 
 
+# Question 6
+
+### **Question:**
+
+> ***Write a program that accepts three numbers and find the largest of three.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y, z, result, max;
+printf("\nEnter the first number: "); 
+scanf("%d", &x);
+printf("\nEnter the second number: ");
+scanf("%d", &y);
+printf("\nEnter the third number: ");
+scanf("%d", &z);
+// if x is greater than both y and z, x is the largest
+if (x >= y && x >= z)
+printf("\n%d is the largest number.", x);
+
+// if y is greater than both x and z, y is the largest
+if (y >= x && y >= z)
+printf("\n%d is the largest number.", y);
+
+// if z is greater than both x and y, z is the largest
+if (z >= x && z >= y)
+printf("\n%d is the largest number.", z);
+    
+return 0;
+}
+```
+----------------------------------------
 
 
 
