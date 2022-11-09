@@ -418,7 +418,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print the multiplication table of a number.***
+> ***Write a program to print the multiplication table of a number entered by the user.***
 
 ---------------------------------------
 
@@ -601,16 +601,45 @@ return 0;
 
 ```C language
 #include<stdio.h>
+#include <ctype.h>
 int main() {
 char ch = 'a';
 if(islower(ch)) {
-printf("you have entered the lower case letter");
+printf("The given character is a lower case letter");
 }
 else {
-printf("you have entered the upper case letter");
+printf("The given character is a upper case letter");
 }
 return 0;
 }
+```
+----------------------------------------
+
+
+# Question 25
+
+### **Question:**
+
+> ***Write a program to check whether the given character is a upper case letter or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include <ctype.h>
+int main() {
+char ch = 'A';
+if(isupper(ch)) {
+printf("The given character is a upper case letter");
+} 
+else {
+printf("The given character is a lower case letter");
+}
+return 0;
+}
+
 ```
 ----------------------------------------
 
@@ -619,7 +648,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to check whether the entered character is a upper case letter or not.***
+> ***Write a program to convert the lower case letter to upper case letter.***
 
 ---------------------------------------
 
@@ -627,21 +656,90 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
+#include <ctype.h>
+int main() {
 char ch = 'a';
-if(isupper(ch))
-printf("you have entered the upper case letter");
-else
-printf("you have entered the lower case letter");
+char b = toupper(ch);
+printf("Lower case letter '%c' is converted to Upper case letter '%c'", ch, b);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 28
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+Einstein [0] = E</br>
+Einstein [1] = I</br>
+Einstein [2] = N</br>
+Einstein [3] = S</br>
+Einstein [4] = T</br>
+Einstein [5] = E</br>
+Einstein [6] = I</br>
+Einstein [7] = N</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char name [8] = {'E' , 'I', 'N', 'S', 'T', 'E', 'I', 'N'};
+for(int i=0; i<8; i++) {
+printf("\n Einstein [%d] = %c", i, name[i]);
+}
 return 0;
 }
 ```
 ----------------------------------------
 
 
+# Question 29
+
+### **Question:**
+
+> ***Write a program to print "hello world" 10 times.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+for(int i=1; i<=10; i++) {
+printf("hello world \n");
+}
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 30
+
+### **Question:**
+
+> ***Write a program to print first 5 numbers using do while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int i =1;
+do {
+printf("%d\n", i++);
+} while(i<=5);
+return 0;
+}
+```
+----------------------------------------
 
 
 
@@ -888,58 +986,6 @@ return 0;
 
 
 
-# Question 27
-
-### **Question:**
-
-> ***Write a program to convert the lower case letter to upper case letter.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-char b = toupper(ch);
-printf("lower case letter %c is converted to upper case letter %c", ch, b);
-return 0;
-}
-```
-----------------------------------------
-
-# Question 28
-
-### **Question:**
-
-> ***Write a program to print the output:</br>
-Einstein [0] = E</br>
-Einstein [1] = I</br>
-Einstein [2] = N</br>
-Einstein [3] = S</br>
-Einstein [4] = T</br>
-Einstein [5] = E</br>
-Einstein [6] = I</br>
-Einstein [7] = N</br>***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i;
-char name [8] = {' E' , ' I', ' N', ' S', ' T ', ' E', ' I', ' N'};
-for(i=0; i<8; i++)
-printf("\n Element [%d] = %c", i, name[i]);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 29
 
@@ -1010,52 +1056,6 @@ return x*x;
 ```
 ----------------------------------------
 
-# Question 31
-
-### **Question:**
-
-> ***Write a program To print "hello world" 10 times.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i;
-for (i =1; i<=10; i ++)
-printf("hello world \n");
-return 0;
-}
-```
-----------------------------------------
-
-
-# Question 32
-
-### **Question:**
-
-> ***Write a program to print first 5 numbers using do while loop statement.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i =1;
-do
-{
-printf("%d\n", i++);
-} while (i<=5);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 33
 
