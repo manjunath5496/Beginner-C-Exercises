@@ -43,7 +43,28 @@ return(0);
 ----------------------------------------
 
 
+# Question 3
 
+### **Question:**
+
+> ***Write a program to compute the perimeter and area of a circle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h> 
+int main() {
+int radius = 4;
+float perimeter = 2*3.14*radius;
+printf("Perimeter of the circle is: %f cm\n", perimeter);
+float area = 3.14*radius*radius;
+printf("Area of the circle is: %f square cm\n", area);
+return(0);
+}
+```
+----------------------------------------
 
 
 
