@@ -220,15 +220,7 @@ return 0;
 ```
 ----------------------------------------
 
-
-
-
-
-
-
-
-
-# Question 3
+# Question 9
 
 ### **Question:**
 
@@ -240,8 +232,7 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
 int a, b, sum;
 a=1;
 b=2;
@@ -252,7 +243,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 4
+# Question 10
 
 ### **Question:**
 
@@ -265,8 +256,7 @@ return 0;
 ```C language
 #include<stdio.h>
 #include<math.h>
-int main()
-{
+int main() {
 int a, b;
 a=2;
 b = pow((a), 2);
@@ -276,7 +266,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 5
+# Question 11
 
 ### **Question:**
 
@@ -288,17 +278,14 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
 int a, b;
 a = 2;
 b = 3;
-if(a>b)
-{
+if(a>b) {
 printf("a is greater than b");
 }
-else
-{
+else {
 printf("b is greater than a");
 }
 return 0;
@@ -306,7 +293,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 6
+# Question 12
 
 ### **Question:**
 
@@ -318,25 +305,25 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
 int i, avg, sum = 0;
 int num [5] = {16, 18, 20, 25, 36};
-for(i=0; i<5; i++)
+for(i=0; i<5; i++) {
 sum = sum + num [i];
 avg = sum/5;
-printf("Sum of the Elements in the array = %d", sum);
-printf("Average of the elements in the array= %d", avg);
+}
+printf("Sum of the Elements in the array is: %d\n", sum);
+printf("Average of the elements in the array is: %d\n", avg);
 return 0;
 }
 ```
 ----------------------------------------
 
-# Question 7
+# Question 13
 
 ### **Question:**
 
-> ***Write a program such that a Switch (case) allows to make a decision from the number of choices, i.e., from the number of cases.***
+> ***Write a program that prints all even numbers between 1 and 25.***
 
 ---------------------------------------
 
@@ -344,33 +331,52 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
-char ch;
-printf("Enter any character:");
-scanf("%c", &ch);
-switch(ch)
-{
-case 'R':
-printf("Red");
-break;
-case 'W':
-printf("White");
-break;
-case 'Y':
-printf("Yellow");
-break;
-case 'G':
-printf("Green");
-break;
-default:
-printf("Error");
-break;
+int main() {
+printf("Even numbers between 1 to 25:\n");
+for(int i = 1; i <= 25; i++) {
+if(i%2 == 0) {
+printf("%d ", i);
+}
 }
 return 0;
-} 
+}
 ```
 ----------------------------------------
+
+
+# Question 14
+
+### **Question:**
+
+> ***Write a program that prints all odd numbers between 1 and 50.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+printf("Odd numbers between 1 to 50:\n");
+for(int i = 1; i <= 50; i++) {
+if(i%2 != 0) {
+printf("%d ", i);
+}
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 # Question 8
 
