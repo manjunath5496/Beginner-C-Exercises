@@ -369,6 +369,281 @@ return 0;
 ----------------------------------------
 
 
+# Question 15
+
+### **Question:**
+
+> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+for(int i=1; i<=10; i++) {
+printf("Number = %d its square = %d its cube = %d\n", i , i*i, i*i*i);
+}
+return 0;
+} 
+```
+----------------------------------------
+
+# Question 16
+
+### **Question:**
+
+> ***Write a program:</br>
+If you enter a character M</br>
+Output must be: ch = M.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char M;
+printf("Enter any character: ");
+scanf("%c", &M);
+printf("ch = %c", M);
+return 0;
+} 
+```
+----------------------------------------
+
+# Question 17
+
+### **Question:**
+
+> ***Write a program to print the multiplication table of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int n, i;
+printf("Enter any number: ");
+scanf("%d", &n);
+for(i=1; i<=5; i++) {
+printf("%d * %d = %d\n", n, i, n*i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 18
+
+### **Question:**
+
+> ***Write a program to print the product of the first 10 digits.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int i, product = 1;
+for(i=1; i<=10; i++) {
+product = product * i;
+}
+printf("The product of the first 10 digits is: %d", product);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 19
+
+### **Question:**
+
+> ***Write a program to print whether the given number is positive or negative.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a;
+a = -35;
+if(a>0) {
+printf("Number is positive");
+}
+else {
+printf("Number is negative");
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 20
+
+### **Question:**
+
+> ***Write a program to check the equivalence of two numbers entered by the user.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+printf("\nEnter the first number: ");
+scanf ("%d", &x);
+printf("\nEnter the second number: ");
+scanf ("%d", &y);
+if(x-y==0) {
+printf("\nThe two numbers are equivalent");
+}
+else {
+printf("\nThe two numbers are not equivalent");
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 21
+
+### **Question:**
+
+> ***Write a program to print the remainder of two numbers entered by the user.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b, c;
+printf("\nEnter the first number: ");
+scanf ("%d", &a);
+printf("\nEnter the second number: ");
+scanf ("%d", &b);
+c = a%b;
+printf("\n The remainder of %d and %d is: %d", a, b, c);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 22
+
+### **Question:**
+
+> ***Write a program to print the characters from A to Z.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char i;
+for(i='A'; i<='Z'; i++) {
+printf("%c\n", i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 23
+
+### **Question:**
+
+> ***Write a program to print the length of the entered string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<string.h>
+int main() {
+char str[1000];
+printf("Enter a string to calculate its length: ");
+scanf("%s", str);
+printf("The length of the entered string is: %ld", strlen(str));
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 24
+
+### **Question:**
+
+> ***Write a program to check whether the given character is a lower case letter or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char ch = 'a';
+if(islower(ch)) {
+printf("you have entered the lower case letter");
+}
+else {
+printf("you have entered the upper case letter");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 26
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a upper case letter or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+char ch = 'a';
+if(isupper(ch))
+printf("you have entered the upper case letter");
+else
+printf("you have entered the lower case letter");
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
 
 
 
@@ -436,187 +711,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 10
 
-### **Question:**
-
-> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i;
-for( i=1; i<=10; i++)
-printf("Number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
-return 0;
-} 
-```
-----------------------------------------
-
-# Question 11
-
-### **Question:**
-
-> ***Write a program:</br>
-If you enter a character M</br>
-Output must be: ch = M.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char M;
-printf("Enter any character:");
-scanf("%c", &M);
-printf("ch=%c", M);
-return 0;
-} 
-```
-----------------------------------------
-
-# Question 12
-
-### **Question:**
-
-> ***Write a program to print the multiplication table of a number.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int n, i;
-printf("Enter any number:");
-scanf("%d", &n);
-for( i=1; i<=5; i++)
-printf("%d * %d = %d\n", n, i, n*i);
-return 0;
-}
-```
-----------------------------------------
-
-
-# Question 13
-
-### **Question:**
-
-> ***Write a program to print the product of the first 10 digits.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i, product = 1;
-for( i=1; i<=10; i++)
-product = product * i;
-printf("The product of the first 10 digits =%d", product);
-return 0;
-}
-```
-----------------------------------------
-
-# Question 14
-
-### **Question:**
-
-> ***Write a program to print whether the given number is positive or negative.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int a;
-a = -35;
-if(a>0)
-{
-printf("Number is positive");
-}
-else
-{
-printf("Number entered is negative");
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 15
-
-### **Question:**
-
-> ***Write a program to check the equivalence of two numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int x, y;
-printf("Enter any number:");
-scanf ("%d", &x);
-printf("Enter any number:");
-scanf ("%d", &y);
-if(x-y==0)
-{
-printf("The two numbers are equivalent");
-}
-else
-{
-printf("The two numbers are not equivalent");
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 16
-
-### **Question:**
-
-> ***Write a program to print the remainder of two numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int a, b, c;
-printf("Enter any number:");
-scanf("%d", &a);
-printf("Enter any number:");
-scanf("%d", &b);
-c = a%b;
-printf("The remainder of a and b = %d", c);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 17
 
@@ -648,27 +743,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 18
 
-### **Question:**
-
-> ***Write a program to print the characters from A to Z.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char a;
-for( a='A'; a<='Z'; a++)
-printf("%c\n", a);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 19
 
@@ -789,29 +864,6 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 23
-
-### **Question:**
-
-> ***Write a program to print the length of the entered string.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-char ch[4];
-printf("Enter any word: ");
-scanf("%c", &ch);
-printf("The length of the string = %d", strlen(ch));
-return 0;
-}
-```
-----------------------------------------
 
 # Question 24
 
@@ -835,54 +887,6 @@ return 0;
 ----------------------------------------
 
 
-# Question 25
-
-### **Question:**
-
-> ***Write a program to check whether the entered character is a lower case letter or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-if(islower(ch))
-printf("you have entered the lower case letter");
-else
-printf("you have entered the upper case letter");
-return 0;
-}
-```
-----------------------------------------
-
-
-# Question 26
-
-### **Question:**
-
-> ***Write a program to check whether the entered character is a upper case letter or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char ch = 'a';
-if(isupper(ch))
-printf("you have entered the upper case letter");
-else
-printf("you have entered the lower case letter");
-return 0;
-}
-```
-----------------------------------------
 
 # Question 27
 
