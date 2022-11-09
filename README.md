@@ -10,13 +10,36 @@
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
 printf("Hello,world!");
 return 0;
 }
 ```
 ----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Question 2
@@ -2090,122 +2113,4 @@ int main(void)
 ```
 ----------------------------------------
 
-
-</br>
-
-<h2> Papers  </h2>
-
-<ul>
-
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(1).pdf" style="text-decoration:none;">C and C++: a Case for Compatibility</a></li>
-
-
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(2).pdf" style="text-decoration:none;">Loop Patterns in C Programs</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(3).pdf" style="text-decoration:none;">The Improved Methods of Teaching Practice Based on C Language Programming</a></li>
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(4).pdf" style="text-decoration:none;">Bad Is Stronger Than Good</a></li>                              
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(5).pdf" style="text-decoration:none;">The Basics of C Programming</a></li>
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(6).pdf" style="text-decoration:none;">A Serious Game for Learning C Programming Language Concepts Using Solo Taxonomy</a></li>
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(7).pdf" style="text-decoration:none;">Assisted learning of C programming through automated program repair and feed-back generation</a></li>
-
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(8).pdf" style="text-decoration:none;"> 
-An Introduction to C and GUI Programming</a></li>
-   <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(9).pdf" style="text-decoration:none;">
-C Programming </a></li>
-  
-   
- <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(10).pdf" style="text-decoration:none;">An Introduction to the C Programming Language and Software Design</a></li>                              
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(11).pdf" style="text-decoration:none;">C Language Tutorial</a></li>
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(12).pdf" style="text-decoration:none;">Essential C</a></li>
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(13).pdf" style="text-decoration:none;">The pitfalls of verifying floating-point computations</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(14).pdf" style="text-decoration:none;">The Development of the C Language</a></li>
-                              
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(15).pdf" style="text-decoration:none;">Assessing Programming Language Impact on Development and Maintenance: A Study on C and C++</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(16).pdf" style="text-decoration:none;">Introduction to C programming</a></li>
-
-  <li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(17).pdf" style="text-decoration:none;">
-Some Were Meant for C</a></li>   
-  
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(18).pdf" style="text-decoration:none;">Understanding Integer Overflow in C/C++</a></li> 
-
-  
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(19).pdf" style="text-decoration:none;">A Tutorial on Pointers and Arrays in C</a></li> 
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(20).pdf" style="text-decoration:none;"> PVC.js: visualizing C programs on web browsers for novices</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(21).pdf" style="text-decoration:none;">Teaching Security in Introductory C-Programming Courses</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(22).pdf" style="text-decoration:none;">The Evolution of C Programming Practices: A Study of the Unix Operating System 1973–2015</a></li> 
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(23).pdf" style="text-decoration:none;"> Research and Development of C Language Programming Experiment Assistant Management Platform Based on Hybrid Architecture</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(24).pdf" style="text-decoration:none;">Programming Methodology
-in C</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(25).pdf" style="text-decoration:none;">Automatic Predicate Abstraction of C Programs</a></li> 
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(26).pdf" style="text-decoration:none;"> Why Functional Programming
-Matters</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(27).pdf" style="text-decoration:none;">Beyond the PDP-11: Architectural support for a memory-safe C abstract machine</a></li>
-
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(28).pdf" style="text-decoration:none;"> Evolving a language in and for the real world: C++ 1991-2006</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(29).pdf" style="text-decoration:none;">The Three Pillars of Machine Programming</a></li>
-
-<li><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/cpj(30).pdf" style="text-decoration:none;">Finding and Understanding Bugs in C Compilers</a></li>
-
-</ul>
-
-</br>
-
-
-<h3>Books:</h3>
-<hr>
-
-<ul>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(1).pdf" style="text-decoration:none;">The C Puzzle Book </a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(2).pdf" style="text-decoration:none;">Functional C</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(3).pdf" style="text-decoration:none;">C: The Complete Reference</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(4).pdf" style="text-decoration:none;">C: A Reference Manual </a></b></li>                              
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(5).pdf" style="text-decoration:none;">Let Us C </a></b></li>
-                                
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(6).pdf" style="text-decoration:none;">Mastering Algorithms with C</a></b></li>
-                          
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(7).pdf" style="text-decoration:none;">C: How to Program </a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(8).pdf" style="text-decoration:none;">Test Your C Skills</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">The C Programming Language </a></b></li>
-                                
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/pb(10).pdf" style="text-decoration:none;">C For Dummies</a></b></li>  
-
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(1).pdf" style="text-decoration:none;">Sams Teach Yourself C in 21 Days </a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(2).pdf" style="text-decoration:none;">C Programming: The ultimate way to learn the fundamentals of the C language</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(3).pdf" style="text-decoration:none;">C Programming Tutorial</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(4).pdf" style="text-decoration:none;">Example C Programming Codes </a></b></li>                              
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(5).pdf" style="text-decoration:none;">C Tutorial</a></b></li>
-                                
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(6).pdf" style="text-decoration:none;">Learn C the Hard Way</a></b></li>
-                          
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(7).pdf" style="text-decoration:none;">Expert C Programming: Deep C Secrets </a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(8).pdf" style="text-decoration:none;">C in Depth</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(9).pdf" style="text-decoration:none;">Practical C Programming</a></b></li>
-                                
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-C-Exercises/blob/master/avc(10).pdf" style="text-decoration:none;">C Traps and Pitfalls</a></b></li> 
-
-
-
-
-
-
-
-
-
-
-
-
- </ul>
-	
 
