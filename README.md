@@ -743,6 +743,91 @@ return 0;
 
 
 
+# Question 31
+
+### **Question:**
+
+> ***Write a program to check whether a character is an alphabet or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+int a =2;
+if(isalpha(a)) {
+printf("The character a is an alphabet");
+}
+else {
+printf("The character a is not an alphabet");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 32
+
+### **Question:**
+
+> ***Write a program to check whether a entered number is even or odd.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a;
+printf("Enter any number: ");
+scanf ("%d", &a);
+if(a%2 == 0) {
+printf("The entered number is even");
+}
+else {
+printf("The entered number is odd");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 33
+
+### **Question:**
+
+> ***Write a program to print the ASCII value of the given character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char ch ='A';
+printf("The ASCII value of %c is: %d", ch, ch);
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -811,35 +896,7 @@ return 0;
 
 
 
-# Question 17
 
-### **Question:**
-
-> ***Write a program to print the given number is even or odd.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int a;
-printf("Enter any number:");
-scanf ("%d", &a);
-if(a%2 = = 0)
-{
-printf("The number is even");
-}
-else
-{
-printf("The number is odd");
-}
-return 0;
-}
-```
-----------------------------------------
 
 
 
@@ -963,26 +1020,6 @@ return 0;
 ----------------------------------------
 
 
-# Question 24
-
-### **Question:**
-
-> ***Write a program to print the ASCII value of the entered character.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-char ch ='A';
-printf("The ASCII value of ch is: %d", ch);
-return 0;
-}
-```
-----------------------------------------
 
 
 
@@ -1112,34 +1149,6 @@ linux
 ```
 ----------------------------------------
 
-# Question 35
-
-### **Question:**
-
-> ***Write a program to check whether a character is an alphabet or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include <stdio.h>
-#include <ctype.h>
-int main()
-{
-int a =2;
-if(isalpha(a))
-{
-printf("The character a is an alphabet");
-}
-else
-{
-printf("The character a is not an alphabet");
-}
-return 0;
-}
-```
-----------------------------------------
 
 # Question 36
 
