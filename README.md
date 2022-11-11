@@ -878,6 +878,58 @@ return 0;
 
 
 
+# Question 36
+
+### **Question:**
+
+> ***Write a program that reads two numbers and divides one by the other. Specify "Division not possible" if that is not possible.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b;
+float c;
+printf("\nEnter the first number: ");
+scanf("%d", &a);
+printf("\nEnter the second number: ");
+scanf("%d", &b);
+if(b != 0) {
+   	c = (float)a/(float)b;
+	printf("\n%d/%d = %.1f", a, b, c);
+} 
+else {
+	 printf("\nDivision not possible.\n");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
