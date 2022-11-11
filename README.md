@@ -701,7 +701,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to print "hello world" 10 times.***
+> ***Write a program to print "Hello World" 10 times.***
 
 ---------------------------------------
 
@@ -711,7 +711,7 @@ return 0;
 #include<stdio.h>
 int main() {
 for(int i=1; i<=10; i++) {
-printf("hello world \n");
+printf("Hello World \n");
 }
 return 0;
 }
