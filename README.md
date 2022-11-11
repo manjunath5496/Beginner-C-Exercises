@@ -689,7 +689,7 @@ Einstein [7] = N</br>***
 int main() {
 char name [8] = {'E' , 'I', 'N', 'S', 'T', 'E', 'I', 'N'};
 for(int i=0; i<8; i++) {
-printf("\n Einstein [%d] = %c", i, name[i]);
+printf("\nEinstein [%d] = %c", i, name[i]);
 }
 return 0;
 }
@@ -903,6 +903,32 @@ if(b != 0) {
 } 
 else {
 	 printf("\nDivision not possible.\n");
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 37
+
+### **Question:**
+
+> ***Write a program that will print all numbers between 1 to 50 which divided by a specified number and the remainder is equal to 2 or 3.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, i;
+printf("Enter a number: ");
+scanf("%d", &x);
+for(i=1; i<=50; i++) {
+   if((i%x)==2 || (i%x) == 3) {
+    printf("%d\n", i);
+	 }
 }
 return 0;
 }
