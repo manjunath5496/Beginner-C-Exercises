@@ -1349,6 +1349,84 @@ return 0;
 ----------------------------------------
 
 
+# Question 52
+
+### **Question:**
+
+> ***Write a program that reads in two numbers and determine whether the first number is a multiple of the second number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+printf("\nEnter the first number: ");
+scanf("%d", &x);
+printf("\nEnter the second number: ");
+scanf("%d", &y);
+if(x % y == 0) {
+printf("\n%d is a multiple of %d.\n", x, y);
+}
+else {
+printf("\n%d is not a multiple of %d.\n", x, y);
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 53
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+Name of the book = B</br>
+Price of the book = 135.00</br>
+Number of pages = 300</br>
+Edition = 8</br>
+using structures.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+struct book {
+char name;
+float price;
+int pages;
+int edition;
+};
+struct book b1;
+b1.name = 'B';
+b1.price = 135.00;
+b1.pages = 300;
+b1.edition = 8;
+printf("\n Name of the book = %c", b1.name);
+printf("\n Price of the book = %f", b1.price);
+printf("\n Number of pages = %d", b1.pages);
+printf("\n Edition of the book = %d", b1.edition);
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1458,44 +1536,7 @@ return 0;
 
 
 
-# Question 29
 
-### **Question:**
-
-> ***Write a program to print the output:</br>
-Name of the book = B</br>
-Price of the book = 135.00</br>
-Number of pages = 300</br>
-Edition = 8</br>
-using structures.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-struct book {
-char name;
-float price;
-int pages;
-int edition;
-};
-struct book b1;
-b1.name = 'B';
-b1.price = 135.00;
-b1.pages = 300;
-b1.edition = 8;
-printf("\n Name of the book = %c", b1.name);
-printf("\n Price of the book = %f", b1.price);
-printf("\n Number of pages = %d", b1.pages);
-printf("\n Edition of the book = %d", b1.edition);
-return 0;
-}
-```
-----------------------------------------
 
 
 
