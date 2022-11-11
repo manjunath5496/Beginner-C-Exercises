@@ -1471,6 +1471,44 @@ return 0;
 ----------------------------------------
 
 
+# Question 56
+
+### **Question:**
+
+> ***Write a program that counts the even, odd, positive, and negative values among eighteen integer inputs.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main () {
+int x, even = 0, odd = 0, positive = 0, negative = 0;
+printf("\nPlease enter 18 numbers:\n");
+for(int i = 0; i < 18; i++) {
+scanf("%d", &x);
+if (x > 0) {
+    positive++;
+}
+if(x < 0) {
+    negative++;
+}
+if(x % 2 == 0) {
+    even++;
+}
+if(x % 2 != 0) {
+    odd++;
+}
+}
+printf("\nNumber of even values: %d", even);
+printf("\nNumber of odd values: %d", odd);
+printf("\nNumber of positive values: %d", positive);
+printf("\nNumber of negative values: %d", negative);
+return 0;
+}
+```
+----------------------------------------
 
 
 
