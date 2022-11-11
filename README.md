@@ -937,6 +937,30 @@ return 0;
 
 
 
+# Question 38
+
+### **Question:**
+
+> ***Write a program that adds up all numbers between 1 and 100 that are not divisible by 12.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x =12, i, sum = 0;
+for(i=1; i<=100; i++) {
+   if((i%x)!= 0) {
+    sum += i;
+	 }
+}
+printf("\nSum: %d\n", sum);
+return 0;
+}
+```
+----------------------------------------
 
 
 
