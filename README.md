@@ -1295,7 +1295,28 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 50
 
+### **Question:**
+
+> ***Write a program to shift inputted data by two bits to the Right.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x;
+printf("Enter the integer from keyboard: ");
+scanf("%d",&x);
+printf("\nEntered value: %d ",x);
+printf("\nThe right shifted data is: %d ", x>>=2);
+return 0;
+}
+```
+----------------------------------------
 
 
 
