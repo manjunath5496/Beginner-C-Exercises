@@ -1435,7 +1435,7 @@ float fahrenheit, celsius;
 celsius = 36;  
 fahrenheit = ((celsius*9)/5)+32;  
 printf("\nTemperature in fahrenheit is:  %f",fahrenheit);  
-return (0);  
+return 0;  
 }  
 ```
 ----------------------------------------
