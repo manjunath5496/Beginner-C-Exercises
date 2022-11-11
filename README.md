@@ -1581,11 +1581,10 @@ return 0;
 ----------------------------------------
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
-int i;
-for (i=1; i<=5; i++) {
-if (i==3) {
+for(int i=1; i<=5; i++) {
+if(i==3) {
 break;
 }
 printf("%d\n", i);
@@ -1604,10 +1603,9 @@ return 0;
 ----------------------------------------
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
-int i;
-for(i=1;i<=5;i++) {
+for(int i=1;i<=5;i++) {
 if(i==3) {
 goto HAI;
 }
@@ -1628,7 +1626,7 @@ Linux
 ----------------------------------------
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 for( ; ; ) {
 printf("This loop will run forever.\n");
@@ -1688,10 +1686,9 @@ linux
 ----------------------------------------
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
-int i;
-for(i=1; i<=5; i++) {
+for(int i=1; i<=5; i++) {
 if(i==3) {
 continue;
 }
