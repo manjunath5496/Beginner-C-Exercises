@@ -1418,6 +1418,32 @@ return 0;
 ----------------------------------------
 
 
+# Question 54
+
+### **Question:**
+
+> ***Write a program to convert Celsius into Fahrenheit.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>  
+int main() {   
+float fahrenheit, celsius;  
+celsius = 36;  
+fahrenheit = ((celsius*9)/5)+32;  
+printf("\nTemperature in fahrenheit is:  %f",fahrenheit);  
+return (0);  
+}  
+```
+----------------------------------------
+
+
+
+
+
 
 
 
