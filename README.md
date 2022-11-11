@@ -830,7 +830,7 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 int x, i;
 printf("Enter a number: ");
