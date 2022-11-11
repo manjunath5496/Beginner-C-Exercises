@@ -1074,7 +1074,32 @@ return x*x;
 ----------------------------------------
 
 
+# Question 43
 
+### **Question:**
+
+> ***Write a program that accepts principal amount, rate of interest, time and compute the simple interest.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int p,r,t,SI;
+printf("\nEnter the principal amount: ");
+scanf("%d",&p);
+printf("\nEnter the rate of interest: ");
+scanf("%d",&r);
+printf("\nEnter the time: ");
+scanf("%d",&t);
+SI=(p*r*t)/100;
+printf("\nSimple interest is: %d", SI);
+return 0;
+}
+```
+----------------------------------------
 
 
 
