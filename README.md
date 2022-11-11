@@ -1127,25 +1127,11 @@ return 0;
 ----------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Question 8
+# Question 44
 
 ### **Question:**
 
-> ***Write a program to find the greatest of two numbers using pointers.***
+> ***Write a program that swaps two numbers without using third variable.***
 
 ---------------------------------------
 
@@ -1153,27 +1139,155 @@ return 0;
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
+int a, b;
+printf("\nEnter the value for a: ");
+scanf("%d",&a);
+printf("\nEnter the value for b: ");
+scanf("%d",&b);
+printf("\nBefore swapping: %d %d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("\nAfter swapping: %d %d",a,b);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 45
+
+### **Question:**
+
+> ***Write a program to find the greatest of two entered numbers using pointers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
 int x, y, *p, *q;
-printf("Enter any integer:");
+printf("Enter the value for x: ");
 scanf("%d", &x);
-printf("Enter any integer:");
+printf("Enter the value for y: ");
 scanf("%d", &y);
 p = &x;
 q = &y;
-if(*p>*q)
-{
+if(*p>*q) {
 printf("x is greater than y");
 }
-if(*q>*p)
-{
+if(*q>*p) {
 printf("y is greater than x");
 }
 return 0;
 }
 ```
 ----------------------------------------
+
+# Question 46
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+body [b] = b</br>
+body [o] = o</br>
+body [d] = d</br>
+body [y] = y</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+char i;
+char body [4] = {'b', 'o', 'd', 'y'};
+for(i=0; i<4; i++)
+printf("\n body[%c] = %c", body[i] , body[i]);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 47
+
+### **Question:**
+
+> ***Write a program to calculate the discounted price and the total price after discount</br>
+Given:</br>
+If purchase value is greater than 1000, 10% discount</br>
+If purchase value is greater than 5000, 20% discount</br>
+If purchase value is greater than 10000, 30% discount.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+double PV;
+printf("Enter purchased value: ");
+scanf("%lf", &PV);
+if(PV>1000) {
+printf("\n Discount = %lf", PV* 0.1);
+printf("\n Total = %lf", PV - PV* 0.1);
+}
+else if(PV>5000) {
+printf("\n Discount = %lf", PV* 0.2);
+printf("\n Total = %lf", PV - PV* 0.2);
+}
+else {
+printf("\n Discount = %lf", PV* 0.3);
+printf("\n Total = %lf", PV - PV* 0.3);
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 48
+
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int i = 1;
+while (i<=10) {
+printf("%d\n", i++);
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Question 9
 
@@ -1206,30 +1320,6 @@ return 0;
 
 
 
-# Question 20
-
-### **Question:**
-
-> ***Write a program to calculate the simple interest.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int P,T, R, SI;
-P = 1000;
-T = 2;
-R = 3;
-SI = P*T*R/100;
-printf("The simple interest = %d", SI);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 21
 
@@ -1342,32 +1432,7 @@ return 0;
 
 
 
-# Question 33
 
-### **Question:**
-
-> ***Write a program to print the output:</br>
-body [b] = b</br>
-body [o] = o</br>
-body [d] = d</br>
-body [y] = y</br>***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include <stdio.h>
-int main()
-{
-char i;
-char body [4] = {'b', 'o', 'd', 'y'};
-for(i=0; i<4; i++)
-printf("\n body[%c] = %c", body[i] , body[i]);
-return 0;
-}
-```
-----------------------------------------
 
 
 # Question 34
@@ -1398,70 +1463,8 @@ linux
 ----------------------------------------
 
 
-# Question 36
 
-### **Question:**
 
-> ***Write a program to calculate the discounted price and the total price after discount</br>
-Given:</br>
-If purchase value is greater than 1000, 10% discount</br>
-If purchase value is greater than 5000, 20% discount</br>
-If purchase value is greater than 10000, 30% discount.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-double PV;
-printf("Enter purchased value:");
-scanf("%lf", &PV);
-if(PV>1000)
-{
-printf("\n Discount=%lf", PV* 0.1);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-else if(PV>5000)
-{
-printf("\n Discount =%lf", PV* 0.2);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-else
-{
-printf("\n Discount=%lf", PV* 0.3);
-printf("\n Total=%lf", PV - PV* 0.1);
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 37
-
-### **Question:**
-
-> ***Write a program to print the first ten natural numbers using while loop statement.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i = 1;
-while (i<=10)
-{
-printf("%d\n", i++);
-}
-return 0;
-}
-```
-----------------------------------------
 
 # Question 38
 
