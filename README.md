@@ -1441,6 +1441,34 @@ return (0);
 ----------------------------------------
 
 
+# Question 55
+
+### **Question:**
+
+> ***Write a program that will examine two inputted integers and return true if either of them is 50 or if their sum is 50.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y; 
+printf("\nEnter the value for x: ");
+scanf("%d", &x);
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+if(x == 50 || y == 50 || (x + y == 50)) {
+    printf("\nTrue");
+} 
+else {
+    printf("\nFalse");
+}    
+return 0;
+}
+```
+----------------------------------------
 
 
 
