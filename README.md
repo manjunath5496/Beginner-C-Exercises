@@ -1572,240 +1572,20 @@ return 0;
 ----------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-# Question 9
+# Question 59
 
 ### **Question:**
 
-> ***Write a program to print the address of x and the value assigned to x.***
+> ***What results would the following programs produce?***
 
----------------------------------------
-
-<strong>Solution: </strong>
+----------------------------------------
 
 ```C language
 #include <stdio.h>
-int main()
-{
-int x, *p;
-x = 1;
-p = &x;
-printf("The address of the variable x =%d", p);
-printf("The value of the variable x =%d", *p);
-return 0;
-} 
-```
-----------------------------------------
-
-
-
-
-
-
-
-
-
-# Question 21
-
-### **Question:**
-
-> ***Write a program to Find the largest of three numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int a, b, c;
-printf("Enter any number:");
-scanf("%d", &a);
-printf("Enter any number:");
-scanf("%d", &b);
-printf("Enter any number:");
-scanf("%d", &c);
-if(a>b&&a>c)
-{
-printf("%d is greater than %d and %d", a, b, c);
-}
-else if (b>a&&b>c)
-{
-printf("%d is greater than %d and %d", b, a, c);
-}
-else
-{
-printf("%d is greater than %d and %d", c, b, a);
-}
-return 0;
-}
-```
-----------------------------------------
-
-# Question 22
-
-### **Question:**
-
-> ***Write a program to print the factorial of the entered number.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i, n, fact=1 ;
-printf("Enter any number:");
-scanf("%d", &n);
-for(i=1; i<=n; i++)
-fact = fact *i;
-printf("\n Entered number is: %d", n);
-printf("\n The factorial of the entered number %d is: %d", n, fact);
-return 0;
-}
-```
-----------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Question 34
-
-### **Question:**
-
-> ***What will be the output of the below program:***
-
----------------------------------------
-
-```C language
-#include<stdio.h>
-#include<stdlib.h>
-int main () {
-printf("linux\n");
-exit (0);
-printf("php\n");
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-linux
-```
-----------------------------------------
-
-
-
-
-
-# Question 38
-
-### **Question:**
-
-> ***What will be the output of the below program:***
-
----------------------------------------
-
-```C language
-#include <stdio.h>
-int main()
-{
+int main() {
 int i;
-for (i=1; i<=5; i++)
-{
-if (i==3)
-{
-continue;
-}
-printf("%d\n ", i);
-}
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-1
-2
-4
-5
-```
-----------------------------------------
-
-# Question 39
-
-### **Question:**
-
-> ***Write a program to find the size of an array.***
-
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include <stdio.h>
-int main()
-{
-   int num [] = {11, 22, 33, 44, 55, 66};
-    int n;
-
-    /* Calculating the size of the array with this formula.
-     * n = sizeof(array_name) / sizeof(array_name[0])
-     * This is a universal formula to find number of elements in
-     * an array, which means it will work for arrays of all data
-     * types such as int, char, float etc.
-     */
-    n = sizeof(num) / sizeof(num [0]);
-    printf("Size of the array is: %d\n", n);
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 40
-
-### **Question:**
-
-> ***What would be the output of the following programs:***
-
-----------------------------------------
-
-```C language
-#include <stdio.h>
-int main()
-{
-int i;
-for (i=1; i<=5; i++)
-{
-if (i==3)
-{
+for (i=1; i<=5; i++) {
+if (i==3) {
 break;
 }
 printf("%d\n", i);
@@ -1825,13 +1605,10 @@ return 0;
 
 ```C language
 #include <stdio.h>
-int main()
-{
+int main() {
 int i;
-for(i=1;i<=5;i++)
-{
-if(i==3)
-{
+for(i=1;i<=5;i++) {
+if(i==3) {
 goto HAI;
 }
 printf("\n %d ",i);
@@ -1851,70 +1628,9 @@ Linux
 ----------------------------------------
 
 ```C language
-#include<stdio.h>
-int main()
-{
-int i = 54;
-int y = i<<1;
-printf("The value of y = %d", y);
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-The value of y = 108
-```
-----------------------------------------
-
-```C language
-#include<stdio.h>
-int main()
-{
-int i = 54;
-int y = i>>1;
-printf("The value of y = %d", y);
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-The value of y = 27
-```
-----------------------------------------
-
-```C language
-#include<stdio.h>
-#include <stdlib.h>
-int main()
-{
-int a, b;
-a= - 2;
-b= abs(a);
-printf("Absolute value = %d", b);
-return 0;
-}
-```
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-Absolute value = 2
- ```
-----------------------------------------
-
-```C language
 #include <stdio.h>
-int main()
-{
-for( ; ; ) 
-{
+int main() {
+for( ; ; ) {
 printf("This loop will run forever.\n");
 }
 return 0;
@@ -1937,8 +1653,7 @@ This loop will run forever. .........
 
 ```C language
 #include<stdio.h>
-int main()
-{
+int main() {
 printf("Hello,world!");
 return 0;
 printf("Hello,world!");
@@ -1953,826 +1668,79 @@ Hello,world!
 ```
 ----------------------------------------
 
-
-
-# Question 42
-
-### **Question:**
-
-> ***Write a program to Display Fibonacci Sequence.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-
-#include <stdio.h>
-int main() {
-    int i, n, t1 = 0, t2 = 1, nextTerm;
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);
-    printf("Fibonacci Series: ");
-
-    for (i = 1; i <= n; ++i) {
-        printf("%d, ", t1);
-        nextTerm = t1 + t2;
-        t1 = t2;
-        t2 = nextTerm;
-    }
-
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 43
-
-### **Question:**
-
-> ***Write a program to Find GCD of two Numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-int main()
-{
-    int n1, n2, i, gcd;
-
-    printf("Enter two integers: ");
-    scanf("%d %d", &n1, &n2);
-
-    for(i=1; i <= n1 && i <= n2; ++i)
-    {
-        // Checks if i is factor of both integers
-        if(n1%i==0 && n2%i==0)
-            gcd = i;
-    }
-
-    printf("G.C.D of %d and %d is %d", n1, n2, gcd);
-
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 44
-
-### **Question:**
-
-> ***Write a program to Find LCM of two Numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-int main() {
-    int n1, n2, max;
-    printf("Enter two positive integers: ");
-    scanf("%d %d", &n1, &n2);
-
-    // maximum number between n1 and n2 is stored in min
-    max = (n1 > n2) ? n1 : n2;
-
-    while (1) {
-        if (max % n1 == 0 && max % n2 == 0) {
-            printf("The LCM of %d and %d is %d.", n1, n2, max);
-            break;
-        }
-        ++max;
-    }
-    return 0;
-}
-```
-----------------------------------------
-
-
-# Question 45
-
-### **Question:**
-
-> ***Write a program to Reverse a Sentence Using Recursion.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-void reverseSentence();
-int main() {
-    printf("Enter a sentence: ");
-    reverseSentence();
-    return 0;
-}
-
-void reverseSentence() {
-    char c;
-    scanf("%c", &c);
-    if (c != '\n') {
-        reverseSentence();
-        printf("%c", c);
-    }
-}
-```
-----------------------------------------
-
-# Question 46
-
-### **Question:**
-
-> ***Write a program to Swap Numbers in Cyclic Order Using Call by Reference.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-void cyclicSwap(int *a, int *b, int *c);
-int main() {
-    int a, b, c;
-
-    printf("Enter a, b and c respectively: ");
-    scanf("%d %d %d", &a, &b, &c);
-
-    printf("Value before swapping:\n");
-    printf("a = %d \nb = %d \nc = %d\n", a, b, c);
-
-    cyclicSwap(&a, &b, &c);
-
-    printf("Value after swapping:\n");
-    printf("a = %d \nb = %d \nc = %d", a, b, c);
-
-    return 0;
-}
-
-void cyclicSwap(int *n1, int *n2, int *n3) {
-    int temp;
-    // swapping in cyclic order
-    temp = *n2;
-    *n2 = *n1;
-    *n1 = *n3;
-    *n3 = temp;
-}
-```
-----------------------------------------
-
-# Question 47
-
-### **Question:**
-
-> ***Write a program to Find Largest Number Using Dynamic Memory Allocation.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-
-#include <stdio.h>
-#include <stdlib.h>
-int main() {
-    int num;
-    float *data;
-    printf("Enter the total number of elements: ");
-    scanf("%d", &num);
-
-    // Allocating memory for num elements
-    data = (float *)calloc(num, sizeof(float));
-    if (data == NULL) {
-        printf("Error!!! memory not allocated.");
-        exit(0);
-    }
-
-    // Storing numbers entered by the user.
-    for (int i = 0; i < num; ++i) {
-        printf("Enter Number %d: ", i + 1);
-        scanf("%f", data + i);
-    }
-
-    // Finding the largest number
-    for (int i = 1; i < num; ++i) {
-        if (*data < *(data + i))
-            *data = *(data + i);
-    }
-    printf("Largest number = %.2f", *data);
-
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 48
-
-### **Question:**
-
-> ***Write a program to Sort Elements in Lexicographical Order.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-   char str[5][50], temp[50];
-   printf("Enter 5 words: ");
-
-   // Getting strings input
-   for (int i = 0; i < 5; ++i) {
-      fgets(str[i], sizeof(str[i]), stdin);
-   }
-
-   // storing strings in the lexicographical order
-   for (int i = 0; i < 5; ++i) {
-      for (int j = i + 1; j < 5; ++j) {
-
-         // swapping strings if they are not in the lexicographical order
-         if (strcmp(str[i], str[j]) > 0) {
-            strcpy(temp, str[i]);
-            strcpy(str[i], str[j]);
-            strcpy(str[j], temp);
-         }
-      }
-   }
-
-   printf("\nIn the lexicographical order: \n");
-   for (int i = 0; i < 5; ++i) {
-      fputs(str[i], stdout);
-   }
-   return 0;
-}
-```
-----------------------------------------
-
-
-
-# Question 49
-
-### **Question:**
-
-> ***Write a program to Add Two Complex Numbers by Passing Structure to a Function.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-typedef struct complex {
-    float real;
-    float imag;
-} complex;
-
-complex add(complex n1, complex n2);
-
-int main() {
-    complex n1, n2, result;
-
-    printf("For 1st complex number \n");
-    printf("Enter the real and imaginary parts: ");
-    scanf("%f %f", &n1.real, &n1.imag);
-    printf("\nFor 2nd complex number \n");
-    printf("Enter the real and imaginary parts: ");
-    scanf("%f %f", &n2.real, &n2.imag);
-
-    result = add(n1, n2);
-
-    printf("Sum = %.1f + %.1fi", result.real, result.imag);
-    return 0;
-}
-
-complex add(complex n1, complex n2) {
-    complex temp;
-    temp.real = n1.real + n2.real;
-    temp.imag = n1.imag + n2.imag;
-    return (temp);
-}
-```
-----------------------------------------
-
-
-# Question 50
-
-### **Question:**
-
-> ***Write a program to Write a Sentence to a File.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-int main() {
-    char sentence[1000];
-
-    // creating file pointer to work with files
-    FILE *fptr;
-
-    // opening file in writing mode
-    fptr = fopen("program.txt", "w");
-
-    // exiting program 
-    if (fptr == NULL) {
-        printf("Error!");
-        exit(1);
-    }
-    printf("Enter a sentence:\n");
-    fgets(sentence, sizeof(sentence), stdin);
-    fprintf(fptr, "%s", sentence);
-    fclose(fptr);
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 51
-
-### **Question:**
-
-> ***Write a program to Read a Line From a File and Display it.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-
-#include <stdio.h>
-#include <stdlib.h> // For exit() function
-int main() {
-    char c[1000];
-    FILE *fptr;
-    if ((fptr = fopen("program.txt", "r")) == NULL) {
-        printf("Error! opening file");
-        // Program exits if file pointer returns NULL.
-        exit(1);
-    }
-
-    // reads text until newline is encountered
-    fscanf(fptr, "%[^\n]", c);
-    printf("Data from the file:\n%s", c);
-    fclose(fptr);
-
-    return 0;
-}
-```
-----------------------------------------
-
-# Question 52
-
-### **Question:**
-
-> ***Write a program to Store Data in Structures Dynamically.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-struct course {
-    int marks;
-    char subject[30];
-};
-
-int main() {
-    struct course *ptr;
-    int i, noOfRecords;
-    printf("Enter the number of records: ");
-    scanf("%d", &noOfRecords);
-
-    // Memory allocation for noOfRecords structures
-    ptr = (struct course *)malloc(noOfRecords * sizeof(struct course));
-    for (i = 0; i < noOfRecords; ++i) {
-        printf("Enter the name of the subject and marks respectively:\n");
-        scanf("%s %d", (ptr + i)->subject, &(ptr + i)->marks);
-    }
-
-    printf("Displaying Information:\n");
-    for (i = 0; i < noOfRecords; ++i)
-        printf("%s\t%d\n", (ptr + i)->subject, (ptr + i)->marks);
-
-    return 0;
-}
-
-```
-----------------------------------------
-
-
-
-
-# Question 53
-### **Question:**
-
-> ***Write a program to Check if a Matrix is Invertible.***
-
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include<stdio.h>
- int main(){
- 
-  int a[3][3], i, j;
- 
-  long determinant;
-  printf("Enter the 9 elements of matrix: ");
-  for(i = 0 ;i < 3;i++)
-      for(j = 0;j < 3;j++)
-           scanf("%d", &a[i][j]);
- 
-  printf("\nThe matrix is\n");
-  for(i = 0;i < 3; i++){
-      printf("\n");
-      for(j = 0;j < 3; j++)
-           printf("%d\t", a[i][j]);
-  }
-  determinant = a[0][0] * ((a[1][1]*a[2][2]) - (a[2][1]*a[1][2])) -a[0][1] * (a[1][0]
-   * a[2][2] - a[2][0] * a[1][2]) + a[0][2] * (a[1][0] * a[2][1] - a[2][0] * a[1][1]);
-   if ( determinant == 0)
-       printf("\nMatrix is NOT invertible");
-   else
-       printf("\nThe given matrix has an inverse!!!");
-   return 0;
-}
-```
-----------------------------------------
-
-# Question 54
-
-### **Question:**
-
-> ***Write a program to Compute Determinant of a Matrix.***
-
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include<stdio.h>
- 
-int main(){
- 
-  int a[3][3], i, j;
- 
-  long determinant;
-  printf("Enter the 9 elements of matrix: ");
-  for(i = 0 ;i < 3;i++)
-      for(j = 0;j < 3;j++)
-           scanf("%d", &a[i][j]);
- 
-  printf("\nThe matrix is\n");
-  for(i = 0;i < 3; i++){
-      printf("\n");
-      for(j = 0;j < 3; j++)
-           printf("%d\t", a[i][j]);
-  }
- 
-  determinant = a[0][0] * ((a[1][1]*a[2][2]) - (a[2][1]*a[1][2])) -a[0][1] * (a[1][0]
-   * a[2][2] - a[2][0] * a[1][2]) + a[0][2] * (a[1][0] * a[2][1] - a[2][0] * a[1][1]);
- 
-  printf("\nDeterminant of 3X3 matrix: %ld", determinant);
- 
-   return 0;
-}
-```
-----------------------------------------
-
-# Question 55
-
-### **Question:**
-
-> ***Write a program to Implement Hash Tables.***
-
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
+```C language
 #include<stdio.h>
 #include<stdlib.h>
- 
-struct data 
-{
-	int key;
-	int value;
-};
- 
-struct data *array;
-int capacity = 10;
-int size = 0;
- 
-/* this function gives a unique hash code to the given key */
-int hashcode(int key)
-{
-	return (key % capacity);
+int main () {
+printf("linux\n");
+exit (0);
+printf("php\n");
+return 0;
 }
- 
-/* it returns prime number just greater than array capacity */
-int get_prime(int n)
-{
-	if (n % 2 == 0) 
-        {
-		n++;
-	}
-	for (; !if_prime(n); n += 2);
- 
-	return n;
-}
- 
-/* to check if given input (i.e n) is prime or not */
-int if_prime(int n)
-{
-	int i;
-	if ( n == 1  ||  n == 0) 
-        {
-		return 0;
-	}
-	for (i = 2; i < n; i++) 
-        {
-		if (n % i == 0) 
-                {
-			return 0;
-		}
-	}
-	return 1;
-}
- 
-void init_array()
-{
-	int i;
-	capacity = get_prime(capacity);
-	array = (struct data*) malloc(capacity * sizeof(struct data));
-	for (i = 0; i < capacity; i++) 
-        {
-		array[i].key = 0;
-		array[i].value = 0;
-	}
-}
- 
-/* to insert a key in the hash table */
-void insert(int key)
-{
-	int index = hashcode(key);
-	if (array[index].value == 0) 
-        {
-		/*  key not present, insert it  */
-		array[index].key = key;
-		array[index].value = 1;
-		size++;
-		printf("\n Key (%d) has been inserted \n", key);
-	}
-	else if(array[index].key == key) 
-        {
-		/*  updating already existing key  */
-		printf("\n Key (%d) already present, hence updating its value \n", key);
-		array[index].value += 1;
-	}
-	else
-        {
-		/*  key cannot be insert as the index is already containing some other key  */
-		printf("\n ELEMENT CANNOT BE INSERTED \n");
-	}
-}
- 
-/* to remove a key from hash table */
-void remove_element(int key)
-{
-	int index  = hashcode(key);
-	if(array[index].value == 0)
-        {
-		printf("\n This key does not exist \n");
-	}
-	else {
-		array[index].key = 0;
-		array[index].value = 0;
-		size--;
-		printf("\n Key (%d) has been removed \n", key);
-	}
-}
- 
-/* to display all the elements of a hash table */
-void display()
-{
-	int i;
-	for (i = 0; i < capacity; i++)
-        {
-		if (array[i].value == 0)
-                {
-			printf("\n Array[%d] has no elements \n");
-		}
-		else 
-                {
-			printf("\n array[%d] has elements -:\n key(%d) and value(%d) \t", i, array[i].key, array[i].value);
-		}
-	}
-}
- 
-int size_of_hashtable()
-{
-	return size;
-}
- 
-void main()
-{
-	int choice, key, value, n, c;
-	clrscr();
- 
-	init_array();
- 
-	do {
-		printf("\n Implementation of Hash Table in C \n\n");
-		printf("MENU-:  \n1.Inserting item in the Hash Table" 
-                               "\n2.Removing item from the Hash Table"
-		               "\n3.Check the size of Hash Table" 
-                               "\n4.Display a Hash Table"
-		       "\n\n Please enter your choice -:");
- 
-		scanf("%d", &choice);
- 
-		switch(choice) 
-                {
- 
-		case 1:
- 
-		      printf("Inserting element in Hash Table\n");
-		      printf("Enter key -:\t");
-		      scanf("%d", &key);
-		      insert(key);
- 
-		      break;
- 
-		case 2:
- 
-		      printf("Deleting in Hash Table \n Enter the key to delete-:");
-		      scanf("%d", &key);
-		      remove_element(key);
- 
-		      break;
- 
-		case 3:
- 
-		      n = size_of_hashtable();
-		      printf("Size of Hash Table is-:%d\n", n);
- 
-		      break;
- 
-		case 4:
- 
-		      display();
- 
-		      break;
- 
-		default:
- 
-		       printf("Wrong Input\n");
- 
-		}
- 
-		printf("\n Do you want to continue-:(press 1 for yes)\t");
-		scanf("%d", &c);
- 
-	}while(c == 1);
- 
-	getch();
- 
-}
-
 ```
-----------------------------------------
-
- 
-# Question 56
-
-### **Question:**
-
-> ***Write a program to Check if a Matrix is a Sparse Matrix.***
-
 ----------------------------------------
 
 <strong>Solution: </strong>
 
-```c
+```C language
+linux
+```
+----------------------------------------
+
+```C language
 #include <stdio.h>
- 
-void main ()
-{
-    int matrix[10][10];
-    int i, j, m, n;
-    int sparse_counter = 0;
- 
-    printf("Enter the order of the matrix \n");
-    scanf("%d %d", &m, &n);
-    printf("Enter the elements of the matrix \n");
-    for (i = 0; i < m; ++i)
-    {
-        for (j = 0; j < n; ++j)
-        {
-            scanf("%d", &matrix[i][j]);
-            if (matrix[i][j] == 0)
-            {
-                ++sparse_counter;
-            }
-        }
-    }
-    if (sparse_counter > ((m * n) / 2))
-    {
-        printf("The given matrix is Sparse Matrix !!! \n");
-    }
-    else
-        printf("The given matrix is not a Sparse Matrix \n");
-    printf("There are %d number of Zeros.", sparse_counter);
+int main() {
+int i;
+for(i=1; i<=5; i++) {
+if(i==3) {
+continue;
+}
+printf("%d\n ", i);
+}
+return 0;
 }
 ```
 ----------------------------------------
 
- 
-# Question 57
+<strong>Solution: </strong>
+
+```C language
+1
+2
+4
+5
+```
+----------------------------------------
+
+
+# Question 60
 
 ### **Question:**
 
-> ***Write a program to Perform Complex Number Multiplication.***
+> ***Write a program to find the size of an array.***
 
 ----------------------------------------
 
 <strong>Solution: </strong>
 
-```c
+```C language
 #include<stdio.h>
-typedef struct COMPLEX{
-    int a;
-    int b;
-}Complex;
-Complex multiply(Complex, Complex);
-int main(){
-    int a1, b1, a2, b2;
-    Complex x, y, z;
-    printf("Enter first complex number : ");
-    scanf("%d+%di", &a1, &b1);
-    printf("\nEnter second complex number : ");
-    scanf("%d+%di", &a2, &b2);
-    x.a = a1;
-    x.b = b1;
-    y.a = a2; 
-    y.b = b2;
-    z = multiply(x, y);
-    printf("\nAfter multiplication: %d+%di", z.a, z.b);
-    return 0;
-}
-Complex multiply(Complex x, Complex y){
-    Complex z;
-    z.a = x.a * y.a - x.b * y.b;
-    z.b = x.a * y.b + x.b * y.a;
-    return z;
+int main() {
+int num [] = {11, 22, 33, 44, 55, 66};
+int n;
+    /* Calculating the size of the array with this formula.
+     * n = sizeof(array_name) / sizeof(array_name[0])
+     * This is a universal formula to find number of elements in
+     * an array, which means it will work for arrays of all data
+     * types such as int, char, float etc.
+     */
+n = sizeof(num) / sizeof(num [0]);
+printf("Size of the array is: %d\n", n);
+return 0;
 }
 ```
 ----------------------------------------
-# Question 58
 
-### **Question:**
 
-> ***Write a program to Generate Random Hexadecimal Bytes.***
-
-----------------------------------------
-
-<strong>Solution: </strong>
-
-```c
-#include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
- 
-int main(void)
-{
-    int length;
-    char str[] = "0123456789ABCDEF";
-    /* Seed number for rand() */
-    srand((unsigned int) time(0) + getpid());
-    length = rand() % 15 + 8;
- 
-    while(length--) {
-        putchar(str[rand() % 16]);
-        srand(rand());
-    }
-    printf("\n");
- 
-    return EXIT_SUCCESS;
-}
-```
-----------------------------------------
 
 
