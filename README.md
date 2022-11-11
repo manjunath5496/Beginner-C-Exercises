@@ -1049,7 +1049,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to find square of a number using functions.***
+> ***Write a program to find square of a entered number using functions.***
 
 ---------------------------------------
 
