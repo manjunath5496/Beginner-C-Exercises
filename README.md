@@ -1539,6 +1539,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 58
+
+### **Question:**
+
+> ***Write a program that reads a student's three subject scores (0-100) and computes the average of those scores.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float score, total_score = 0;
+int subject = 0;
+printf("Enter three subject scores (0-100):\n");
+while (subject != 3) {
+scanf("%f", &score);
+if(score < 0 || score > 100) {
+printf("Please enter a valid score.\n");
+}
+else {
+total_score += score;
+subject++;
+  }
+}
+printf("Average score = %.2f\n", total_score/3);
+return 0;
+} 
+```
+----------------------------------------
 
 
 
