@@ -823,7 +823,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program that print all numbers between 1 to 50 which divided by a specified number and the remainder will be 2.***
+> ***Write a program that will print all numbers between 1 to 50 which divided by a specified number and the remainder will be 2.***
 
 ---------------------------------------
 
@@ -846,6 +846,35 @@ return 0;
 ----------------------------------------
 
 
+# Question 35
+
+### **Question:**
+
+> ***Write a program to determine whether two numbers in a pair are in ascending or descending order.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b;
+printf("\nEnter a pair of numbers (for example 22,12 | 12,22): ");
+printf("\nEnter the first number: ");
+scanf("%d", &a);
+printf("\nEnter the second number: ");
+scanf("%d", &b);
+if (a>b) {
+printf("\nThe two numbers in a pair are in descending order.");
+}
+else {
+printf("\nThe two numbers in a pair are in ascending order.");
+}
+return 0;
+} 
+```
+----------------------------------------
 
 
 
