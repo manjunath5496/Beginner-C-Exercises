@@ -963,7 +963,28 @@ return 0;
 ----------------------------------------
 
 
+# Question 39
 
+### **Question:**
+
+> ***Write a program to calculate the value of x where x = 1 + 1/2 + 1/3 + … + 1/50.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float x = 0;
+for(int i=1; i<=50; i++) {
+   x += (float)1/i;
+}
+printf("Value of x: %.2f\n", x);
+return 0;
+}
+```
+----------------------------------------
 
 
 
