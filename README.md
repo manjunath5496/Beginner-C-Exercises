@@ -987,12 +987,91 @@ return 0;
 ----------------------------------------
 
 
+# Question 40
+
+### **Question:**
+
+> ***Write a program that reads a number and find all its divisor.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, i;
+printf("\nEnter a number: ");
+scanf("%d", &x);
+printf("All the divisor of %d are: ", x);
+for(i = 1; i <= x; i++) {
+    if((x%i) == 0) {
+	printf("\n%d", i);
+    }
+}	
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 41
+
+### **Question:**
+
+> ***Write a program to find the incremented and decremented values of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b, c, d, e, f;
+a = 10;
+b=12;
+c=a+1;
+d=b+1;
+e=a-1;
+f=b-1;
+printf("The incremented value of a =%d", c);
+printf("The incremented value of b =%d", d);
+printf("The decremented value of a =%d", e);
+printf("The decremented value of b =%d", f);
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 42
 
+### **Question:**
 
+> ***Write a program to find square of a number using functions.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int square();
+int main() {
+int answer;
+answer = square();
+printf("The square of the entered number is: %d", answer);
+return(0);
+}
+int square() {
+int x;
+printf("Enter any number: ");
+scanf("%d", &x);
+return x*x;
+}
+```
+----------------------------------------
 
 
 
@@ -1076,35 +1155,6 @@ return 0;
 
 
 
-# Question 19
-
-### **Question:**
-
-> ***Write a program to find the incremented and decremented values of two numbers.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int a, b, c, d, e, f;
-a = 10;
-b=12;
-c=a+1;
-d=b+1;
-e=a-1;
-f=b-1;
-printf("The incremented value of a =%d", c);
-printf("The incremented value of b =%d", d);
-printf("The decremented value of a =%d", e);
-printf("The decremented value of b =%d", f);
-return 0;
-}
-```
-----------------------------------------
 
 # Question 20
 
@@ -1239,35 +1289,7 @@ return 0;
 ```
 ----------------------------------------
 
-# Question 30
 
-### **Question:**
-
-> ***Write a program to find square of a number using functions.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int square();
-int main()
-{
-int answer;
-answer = square();
-printf("Square of the given number=%d", answer);
-return(0);
-}
-int square()
-{
-int x;
-printf("Enter any integer:");
-scanf("%d", &x);
-return x*x;
-}
-```
-----------------------------------------
 
 
 # Question 33
