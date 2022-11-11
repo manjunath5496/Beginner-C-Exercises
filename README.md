@@ -1320,7 +1320,33 @@ return 0;
 
 
 
+# Question 51
 
+### **Question:**
+
+> ***Write a program to calculate the exact difference between x and 21. Return three times the absolute difference if x is greater than 21.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdlib.h>
+#include<stdio.h>
+int main() {
+int x;
+printf("Enter the value for x: ");
+scanf("%d",&x);
+if(x<=21){
+    printf("%d",abs(x-21));
+ }
+else if(x>=21) {
+    printf("%d",abs(x-21)*3);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
