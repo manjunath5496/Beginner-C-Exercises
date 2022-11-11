@@ -1511,7 +1511,32 @@ return 0;
 ----------------------------------------
 
 
+# Question 57
 
+### **Question:**
+
+> ***Write a program to check whether the person is a senior citizen or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int age;
+printf("Enter age: ");
+scanf("%d", &age);
+if(age>=60) {
+printf("Senior citizen");
+}
+else {
+printf("Not a senior citizen");
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
@@ -1897,35 +1922,7 @@ Hello,world!
 ```
 ----------------------------------------
 
-# Question 41
 
-### **Question:**
-
-> ***Write a program to check whether the person is a senior citizen or not.***
-
----------------------------------------
-
-<strong>Solution: </strong>
-
-```C language
-#include<stdio.h>
-int main()
-{
-int age;
-printf("Enter age:");
-scanf("%d", &age);
-if(age>=60)
-{
-printf("senior citizen");
-}
-else
-{
-printf("not a senior citizen");
-}
-return 0;
-}
-```
-----------------------------------------
 
 # Question 42
 
