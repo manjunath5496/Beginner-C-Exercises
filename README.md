@@ -1387,7 +1387,7 @@ return 0;
 Name of the book = B</br>
 Price of the book = 135.00</br>
 Number of pages = 300</br>
-Edition = 8</br>
+Edition of the book = 8</br>
 using structures.***
 
 ---------------------------------------
