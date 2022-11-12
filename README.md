@@ -2603,7 +2603,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to Check Entered character is a vowel or consonant.***
+> ***Write a program to verify if a character you entered is a vowel or a consonant.***
 
 ---------------------------------------
 
@@ -2613,7 +2613,7 @@ return 0;
 #include<stdio.h>
 int main() {
 char ch;
-printf("\nEnter a character : ");
+printf("\nEnter a character: ");
 scanf("%c", &ch);
 if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
  ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ) {
