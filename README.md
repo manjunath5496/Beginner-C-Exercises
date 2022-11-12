@@ -2332,7 +2332,63 @@ else {
 ```
 ----------------------------------------
 
+# Question 82
 
+### **Question:**
+
+> ***Write a program to find the third angle of a triangle if two angles are given.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {  
+int angle1, angle2; 
+printf("\nEnter the first angle of the triangle: ");   
+scanf("%d", &angle1);    
+printf("\nEnter the second angle of the triangle: ");   
+scanf("%d", &angle2); 
+printf("\nThird angle of the triangle is:  %d\n", (180 - (angle1 + angle2)));  
+return 0;  
+}  
+```
+----------------------------------------
+
+
+# Question 83
+
+### **Question:**
+
+> ***Write a program to determine whether a particular year is a leap year or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int year;
+printf("Enter the year: ");
+scanf("%d", &year);
+if((year % 400) == 0) {
+printf("\n%d is a leap year.\n", year);
+}
+else if((year % 100) == 0) {
+printf("\n%d is a not leap year.\n", year);
+}
+else if((year % 4) == 0) {
+printf("\n%d is a leap year.\n", year);
+}
+else {
+printf("\n%d is not a leap year \n", year);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
