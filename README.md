@@ -2239,6 +2239,38 @@ return 0;
 ----------------------------------------
 
 
+# Question 79
+
+### **Question:**
+
+> ***Write a program to count the number of even elements in an integer array.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+int array[1000], i, arr_size, even=0;
+printf("Input the size of the array: ");
+scanf("%d", &arr_size);
+printf("Enter the elements in array: \n");
+for(i=0; i<arr_size; i++) {
+scanf("%d",&array[i]);
+}
+ 
+for(i=0; i<arr_size; i++) {
+if(array[i]%2==0) {
+    even++;
+}
+}
+printf("Number of even elements: %d", even);
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
