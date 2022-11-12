@@ -1731,6 +1731,31 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 61
 
+### **Question:**
+
+> ***Write a program that prints a sequence from 1 to a given integer, inserts a plus sign between these numbers, and then removes the plus sign at the end of the sequence..***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main () {
+int x, i;
+printf("\nEnter a integer: \n");
+scanf("%d", &x);
+if(x>0) {
+printf("Sequence from 1 to %d:\n", x);
+for(i=1; i<x; i++)  {
+printf("%d+", i);
+}
+printf("%d\n", i);
+}
+}
+```
+----------------------------------------
 
 
