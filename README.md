@@ -2656,4 +2656,33 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 94
+
+### **Question:**
+
+> ***Write a program to print number of days in a month.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x[12]={31,28,31,30,31,30,31,31,30,31,30,31}, m;
+printf("\nEnter the month number: ");
+scanf("%d",&m);
+if(m>12 || m<1) {
+printf("Invalid input");
+}
+else if(m==2) {
+printf("\nNumber of days in month 2 is either 29 or 28");
+}
+else {
+printf("\nNumber of days in month %d is %d", m, x[m-1]);
+}
+return 0;
+} 
+```
+----------------------------------------
 
