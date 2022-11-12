@@ -2049,3 +2049,42 @@ return 0;
 ```
 ----------------------------------------
 
+
+# Question 72
+
+### **Question:**
+
+> ***Write a program that accepts two integers and returns true when one of them equals 6, or when their sum or difference equals 6.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x, y;
+printf("\nEnter the value for x: ");
+scanf("%d", &x); 
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+if(x == 6 || y == 6 || x + y == 6 || abs(x - y) == 6) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}     
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
