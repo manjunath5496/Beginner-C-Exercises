@@ -1850,3 +1850,34 @@ return a == b ? (a + b)*3 : a + b;
 }
 ```
 ----------------------------------------
+
+# Question 65
+
+### **Question:**
+
+> ***Write a program that accepts minutes as input, and display the total number of hours and minutes.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int mins, hrs;
+printf("Input minutes: ");
+scanf("%d",&mins);
+hrs=mins/60;
+mins=mins%60;
+printf("\n%d Hours, %d Minutes.\n", hrs, mins);
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
