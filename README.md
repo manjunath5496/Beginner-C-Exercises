@@ -1905,6 +1905,34 @@ return 0;
 ----------------------------------------
 
 
+# Question 67
 
+### **Question:**
+
+> ***Write a program to verify whether one of the two entered integers falls within the range of 100 to 200 included.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+printf("\nEnter the value for x: ");
+scanf("%d", &x); 
+printf("\nEnter the value for y: ");
+scanf("%d", &y); 
+if((x >= 100 && x <= 200) || (y >= 100 && y <= 200)) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}
+    
+```
+----------------------------------------
 
 
