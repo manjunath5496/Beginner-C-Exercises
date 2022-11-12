@@ -2174,7 +2174,8 @@ return 0;
 ```C language
 #include<stdio.h>
 int myfunc();
-int main() {    
+int main() { 
+printf("\n%d", myfunc(11, 11, 11));
 printf("\n%d", myfunc(11, 11, 16));
 printf("\n%d", myfunc(18, 15, 10));
 return 0;
