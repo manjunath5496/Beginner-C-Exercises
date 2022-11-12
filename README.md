@@ -2570,6 +2570,65 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 91
+
+### **Question:**
+
+> ***Write a program to add the digits of a two-digit number that is entered by the user.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y, sum = 0;
+printf("\nEnter a two-digit number: ");
+scanf("%d", &x);
+y = x;
+while(y != 0) {
+sum = sum + y % 10;
+y = y / 10;
+}
+printf("\nSum of digits of %d is: %d", x, sum);
+return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 92
+
+### **Question:**
+
+> ***Write a program to Check Entered character is a vowel or consonant.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char ch;
+printf("\nEnter a character : ");
+scanf("%c", &ch);
+if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+ ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ) {
+
+printf("\n%c is a Vowel", ch);
+}
+else {
+printf("\n%c is a Consonant", ch);
+}
+return 0;
+}
+
+
+```
+----------------------------------------
 
 
 
