@@ -2306,6 +2306,31 @@ return 0;
 ----------------------------------------
 
 
+# Question 81
+
+### **Question:**
+
+> ***Write a program that will accept two integers and determine whether or not they are equal.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+printf("Input the values for x and y: \n");
+scanf("%d %d", &x, &y);
+if(x == y) {
+    printf("x and y are equal\n");
+}
+else {
+    printf("x and y are not equal\n");
+}
+}
+```
+----------------------------------------
 
 
 
