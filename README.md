@@ -2147,7 +2147,7 @@ return(0);
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 #define PI 3.141592
 int main() {
 float major, minor, area;
