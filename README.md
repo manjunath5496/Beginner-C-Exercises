@@ -2113,6 +2113,29 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 74
+
+### **Question:**
+
+> ***Write a program that converts kilometers per hour to miles per hour.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float kmph;    
+printf("Enter kilometers per hour: ");
+scanf("%f", &kmph);
+printf("\n%f miles per hour", (kmph * 0.6213712));
+return(0);
+}   
+```
+----------------------------------------
+
+
 
 
 
