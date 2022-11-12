@@ -2207,7 +2207,7 @@ int main() {
 int bytes;
 printf("\nEnter number of bytes: ");
 scanf("%d",&bytes);
-printf("\nKilobytes: %.2lf", (bytes/1024.00));
+printf("\nKilobytes: %.2lf", (bytes/1024));
 return 0;
 }
 
