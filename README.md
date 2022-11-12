@@ -2023,7 +2023,29 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 71
 
+### **Question:**
 
+> ***Write a program to determine whether a given non-negative number is a multiple of 12 or it is one more than a multiple of 12.***
 
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x = 43;
+if(x % 12 == 0 || x % 12 == 1) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}    
+```
+----------------------------------------
 
