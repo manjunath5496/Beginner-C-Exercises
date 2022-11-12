@@ -1992,6 +1992,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 70
+
+### **Question:**
+
+> ***Write a program to determine whether two entered non-negative numbers have the same last digit.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x, y;
+printf("\nEnter the value for x: ");
+scanf("%d", &x); 
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+if(abs(x % 10) == abs(y % 10)) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}
+    
+```
+----------------------------------------
+
 
 
 
