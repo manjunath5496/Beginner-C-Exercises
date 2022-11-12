@@ -2466,6 +2466,56 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 87
+
+### **Question:**
+
+> ***Write a program to Convert Kilogram to Pounds.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float kg, lbs;
+printf("\nEnter Weight in Kilogram: ");
+scanf("%f", &kg);
+lbs = kg*2.20462;
+printf("\n%f Kg = %f Pounds", kg, lbs );
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 88
+
+### **Question:**
+
+> ***Write a program to Convert Kilogram to Ounce.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float kg, ounce;
+printf("\nEnter Weight in Kilogram: ");
+scanf("%f", &kg);
+ounce = kg*35.274;
+printf("\n%f Kg = %f Ounce", kg, ounce);
+return 0;
+}
+
+```
+----------------------------------------
+
+
+
 # Question 90
 
 ### **Question:**
