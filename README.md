@@ -1786,4 +1786,43 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 63
 
+### **Question:**
+
+> ***Write a program that will find the second-largest number among the user's input of three numbers.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a, b, c;
+printf("\nEnter the first number: ");
+scanf("%d", &a);
+printf("\nEnter the second number: ");
+scanf("%d", &b);
+printf("\nEnter the third number: ");
+scanf("%d", &c);
+if(a>b && a>c) {
+    if(b>c)
+            printf("\n%d is second largest number among three numbers", b);
+        else
+            printf("\n%d is second largest number among three numbers", c);
+}
+else if(b>c && b>a) {
+    if(c>a)
+            printf("\n%d is second largest number among three numbers", c);
+        else
+            printf("\n%d is second largest number among three numbers", a);
+}
+else if(a>b)
+            printf("\n%d is second largest number among three numbers", a);
+        else
+            printf("\n%d is second largest number among three numbers", b);
+    return 0;
+}
+```
+----------------------------------------
