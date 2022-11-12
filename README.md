@@ -2140,7 +2140,7 @@ return(0);
 
 ### **Question:**
 
-> ***Write a program to Calculate Area of an Ellipse.***
+> ***Write a program to calculate area of an ellipse.***
 
 ----------------------------------------
 
