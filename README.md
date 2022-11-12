@@ -2161,6 +2161,33 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 76
+
+### **Question:**
+
+> ***Write a program to calculate the sum of three given integers. Return the third value if the first two values are equal.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int myfunc();
+int main() {    
+printf("\n%d", myfunc(11, 11, 16));
+printf("\n%d", myfunc(18, 15, 10));
+return 0;
+}       
+int myfunc(int a, int b, int c) {
+if (a == b && b == c) return 0;
+if (a == b) return c;
+if (a == c) return b;
+if (b == c) return a;
+else return a + b + c;
+}
+```
+----------------------------------------
 
 
 
