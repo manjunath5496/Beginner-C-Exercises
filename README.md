@@ -2686,3 +2686,39 @@ return 0;
 ```
 ----------------------------------------
 
+
+# Question 95
+
+### **Question:**
+
+> ***Write a program to concatenate two strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<string.h>
+int main() {
+char a[1000], b[1000];
+printf("\nEnter the first string: ");
+scanf("%s", a);
+printf("\nEnter the second string: ");
+scanf("%s", b);
+strcat(a, b);
+printf("\nString produced by concatenation is: %s", a);
+return 0;
+}
+
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
