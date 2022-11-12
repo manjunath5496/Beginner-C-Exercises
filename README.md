@@ -1735,7 +1735,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program that prints a sequence from 1 to a given integer, inserts a plus sign between these numbers, and then removes the plus sign at the end of the sequence..***
+> ***Write a program that prints a sequence from 1 to a given integer, inserts a plus sign between these numbers, and then removes the plus sign at the end of the sequence.***
 
 ----------------------------------------
 
@@ -1753,6 +1753,33 @@ for(i=1; i<x; i++)  {
 printf("%d+", i);
 }
 printf("%d\n", i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 62
+
+### **Question:**
+
+> ***Write a program to verify whether a triangle's three sides form a right angled triangle or not.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a,b,c;
+printf("Enter the three sides of a triangle: \n");
+scanf("%d %d %d",&a,&b,&c);  
+if((a*a)+(b*b)==(c*c) || (a*a)+(c*c)==(b*b) || (b*b)+(c*c)==(a*a)) {  
+printf("Triangle's three sides form a right angled triangle.\n");  
+}
+else { 
+printf("Triangle's three sides does not form a right angled triangle.\n"); 
 }
 return 0;
 }
