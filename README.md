@@ -2715,7 +2715,32 @@ return 0;
 ----------------------------------------
 
 
+# Question 96
 
+### **Question:**
+
+> ***Write a program to find maximum between two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a,b;
+printf("Enter two numbers: \n");
+scanf("%d%d", &a, &b);
+if(a>b) {
+printf("\n%d is a maximum number\n", a);
+}
+else {
+printf("\n%d is a maximum number\n", b);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
