@@ -2150,7 +2150,7 @@ return(0);
 #include<stdio.h>
 #define PI 3.141592
 int main() {
-float major, minor, area;
+float major, minor;
 printf("\nEnter length of major axis: ");
 scanf("%f", &major);
 printf("\nEnter length of minor axis: ");
