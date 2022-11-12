@@ -2191,7 +2191,52 @@ else return a + b + c;
 ----------------------------------------
 
 
+# Question 77
 
+### **Question:**
+
+> ***Write a program to convert bytes to kilobytes.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int bytes;
+printf("\nEnter number of bytes: ");
+scanf("%d",&bytes);
+printf("\nKilobytes: %.2lf", (bytes/1024.00));
+return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 78
+
+### **Question:**
+
+> ***Write a program to convert MB to KB.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+double megabytes, kilobytes;
+printf("\nInput the amount of megabytes to convert: ");
+scanf("%lf",&megabytes);
+kilobytes = megabytes * 1024;
+printf("\nThere are %lf kilobytes in %lf megabytes.", kilobytes, megabytes);
+return 0;
+}
+```
+----------------------------------------
 
 
 
