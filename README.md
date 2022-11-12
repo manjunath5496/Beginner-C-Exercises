@@ -2390,6 +2390,65 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 84
+
+### **Question:**
+
+> ***Write a program that reads the candidate's age and determine a candidate's eligibility to cast his own vote.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int age;
+printf("\nEnter the age of the candidate: ");
+scanf("%d",&age);
+if(age<18) {
+printf("\nWe apologize, but the candidate is not able to cast his vote.");
+printf("\nAfter %d year, the candidate would be able to cast his vote.", (18-age));
+}
+else {
+printf("Congratulation! the candidate is qualified to cast his vote.\n");
+}
+}
+```
+----------------------------------------
+
+
+# Question 85
+
+### **Question:**
+
+> ***Write a program  to verify whether a triangle is valid or not using angles.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {  
+int angle1, angle2, angle3, sum; 
+printf("\nEnter the first angle of the triangle: ");  
+scanf("%d", &angle1);  
+printf("\nEnter the second angle of the triangle: ");  
+scanf("%d", &angle2);
+printf("\nEnter the third angle of the triangle: ");  
+scanf("%d", &angle3);
+sum = angle1 + angle2 + angle3;   
+if(sum == 180) {  
+printf("\nThe triangle is valid.");  
+}  
+else {  
+printf("\nThe triangle is not valid.");  
+}
+return 0;
+} 
+```
+----------------------------------------
 
 
 
