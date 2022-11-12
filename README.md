@@ -2483,7 +2483,7 @@ float kg, lbs;
 printf("\nEnter Weight in Kilogram: ");
 scanf("%f", &kg);
 lbs = kg*2.20462;
-printf("\n%f Kg = %f Pounds", kg, lbs );
+printf("\n%f Kg = %f Pounds", kg, lbs);
 return 0;
 }
 ```
