@@ -2250,7 +2250,7 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 int array[1000], i, arr_size, even=0;
 printf("Input the size of the array: ");
@@ -2284,7 +2284,7 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 int array[1000], i, arr_size, odd=0;
 printf("Input the size of the array: ");
