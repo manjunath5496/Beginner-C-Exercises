@@ -1826,3 +1826,27 @@ else if(a>b)
 }
 ```
 ----------------------------------------
+
+# Question 64
+
+### **Question:**
+
+> ***Write a program to calculate the sum of the two given integer values. Return three times the sum of the two values if they are equal.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int myfunc();
+int main() {
+printf("%d", myfunc(3, 5));
+printf("\n%d", myfunc(6, 6));
+return 0;
+}    
+int myfunc(int a, int b) {
+return a == b ? (a + b)*3 : a + b;
+}
+```
+----------------------------------------
