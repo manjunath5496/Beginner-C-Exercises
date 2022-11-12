@@ -2219,7 +2219,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to convert MB to KB.***
+> ***Write a program to convert megabytes to kilobytes.***
 
 ----------------------------------------
 
