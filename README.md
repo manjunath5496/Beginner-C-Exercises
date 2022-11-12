@@ -1962,3 +1962,37 @@ return x == y ? 0 : (x < y ? a : b);
 }
 ```
 ----------------------------------------
+
+# Question 69
+
+### **Question:**
+
+> ***Write a program to determine whether a positive number entered by the user is a multiple of three or five, but not both.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x;
+printf("\nEnter a number: ");
+scanf("%d", &x);    
+if(x % 3 == 0 ^ x % 5 == 0) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}
+    
+```
+----------------------------------------
+
+
+
+
+
+
