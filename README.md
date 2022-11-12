@@ -2130,7 +2130,7 @@ float kmph;
 printf("Enter kilometers per hour: ");
 scanf("%f", &kmph);
 printf("\n%f miles per hour", (kmph * 0.6213712));
-return(0);
+return 0;
 }   
 ```
 ----------------------------------------
@@ -2328,6 +2328,7 @@ if(x == y) {
 else {
     printf("x and y are not equal\n");
 }
+return 0;
 }
 ```
 ----------------------------------------
@@ -2413,6 +2414,7 @@ printf("\nAfter %d year, the candidate would be able to cast his vote.", (18-age
 else {
 printf("Congratulation! the candidate is qualified to cast his vote.\n");
 }
+return 0;
 }
 ```
 ----------------------------------------
