@@ -2531,7 +2531,7 @@ float pound, gram;
 printf("\nEnter Weight in Pounds: ");
 scanf("%f", &pound);
 gram = pound*453.592;
-printf("\n%f Pound = %f Grams", pound, gram );
+printf("\n%f Pound = %f Grams", pound, gram);
 return 0;
 }
 ```
