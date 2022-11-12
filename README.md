@@ -2419,6 +2419,52 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 85
+
+### **Question:**
+
+> ***Write a program to Convert Yard to Foot.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float yard;
+printf("\nEnter the Length in Yard : ");
+scanf("%f", &yard);
+printf("\n%f Yard in Foot is: %f", yard, (3*yard));
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 86
+
+### **Question:**
+
+> ***Write a program to convert gigabytes to megabytes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+double gigabytes, megabytes;
+printf("\nInput the amount of gigabytes to convert: ");
+scanf("%lf", &gigabytes);
+megabytes = gigabytes*1024;
+printf("\nThere are %lf megabytes in %lf gigabytes.", megabytes, gigabytes);
+return 0;
+}
+
+```
+----------------------------------------
 
 # Question 90
 
