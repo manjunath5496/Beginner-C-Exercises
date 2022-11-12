@@ -1935,4 +1935,30 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 68
 
+### **Question:**
+
+> ***Write a program to determine which of the two given integers is closest to the value 100. If the two numbers are equal, return 0.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int myfunc();
+int main() {
+printf("%d", myfunc(86, 99));
+printf("\n%d", myfunc(55, 55));
+printf("\n%d", myfunc(65, 80));
+return 0;
+}       
+int myfunc(int a, int b) {
+int x = abs(a - 100);
+int y = abs(b - 100);
+return x == y ? 0 : (x < y ? a : b);
+}
+```
+----------------------------------------
