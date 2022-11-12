@@ -2631,6 +2631,29 @@ return 0;
 ----------------------------------------
 
 
+# Question 93
 
+### **Question:**
+
+> ***Write a program to find factorial of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>  
+int main() {    
+int i, fact=1, num;    
+printf("\nEnter a number: ");    
+scanf("%d",&num);    
+for(i=1; i<=num; i++) {    
+      fact=fact*i;    
+}    
+printf("\nFactorial of %d is: %d", num, fact);    
+return 0;  
+}   
+```
+----------------------------------------
 
 
