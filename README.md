@@ -2081,7 +2081,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 73
 
+### **Question:**
+
+> ***Write a program to check whether it is possible to add two integers to get the third integer from three entered integers.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y, z;
+printf("\nEnter the value for x: ");
+scanf("%d", &x); 
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+printf("\nEnter the value for z: ");
+scanf("%d", &z);
+if(x == y + z || y == x + z || z == x + y) {
+printf("True");   
+}
+else {
+printf("False");    
+}
+return 0;
+}
+    
+```
+----------------------------------------
 
 
 
