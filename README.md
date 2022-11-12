@@ -2350,7 +2350,7 @@ printf("\nEnter the first angle of the triangle: ");
 scanf("%d", &angle1);    
 printf("\nEnter the second angle of the triangle: ");   
 scanf("%d", &angle2); 
-printf("\nThird angle of the triangle is:  %d\n", (180 - (angle1 + angle2)));  
+printf("\nThird angle of the triangle is:  %d", (180 - (angle1 + angle2)));  
 return 0;  
 }  
 ```
