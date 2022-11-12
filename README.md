@@ -2742,6 +2742,41 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 97
+
+### **Question:**
+
+> ***Write a program to compare two strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<string.h>
+int main() {
+char a[100], b[100];
+printf("Enter the first string: \n");
+scanf("%s", a);
+printf("Enter the second string: \n");
+scanf("%s", b);
+if (strcmp(a,b) == 0) {
+printf("The 2 strings are equal.\n");
+}
+else {
+printf("The 2 strings are not equal.\n");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
 
 
 
