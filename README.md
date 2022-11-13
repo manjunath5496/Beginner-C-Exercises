@@ -3704,6 +3704,29 @@ return (0);
 
 
 
+# Question 129
+
+### **Question:**
+
+> ***Write a program to calculate surface area of cube.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int side;
+long area;
+printf("\nEnter the side of cube: ");
+scanf("%d", &side);
+area = 6*side*side;
+printf("\nThe Surface area of cube is: %ld", area);
+return 0;
+}
+```
+----------------------------------------
 
 
 
