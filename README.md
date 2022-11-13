@@ -3141,6 +3141,38 @@ return 0;
 ----------------------------------------
 
 
+# Question 109
+
+### **Question:**
+
+> ***Write a program to print ASCII values of all the letters of the English alphabet from A to Z.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int i;
+for(i='A'; i<='Z'; i++) {
+printf("ASCII value of %c = %d\n", i, i);
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
