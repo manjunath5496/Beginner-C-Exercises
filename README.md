@@ -3977,3 +3977,33 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 137
+
+### **Question:**
+
+> ***Write a program that uses a for loop to determine power of a number entered by the user.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+long power = 1;
+printf("\nEnter the value for x: ");
+scanf("%d", &x);
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+for(int i=1; i<=y; i++) {
+power = power * x;
+}
+printf("%d ^ %d = %ld", x, y, power);
+return 0;
+}
+```
+----------------------------------------
+
+
+
