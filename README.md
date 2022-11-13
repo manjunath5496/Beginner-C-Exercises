@@ -3214,7 +3214,33 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 112
 
+### **Question:**
+
+> ***Write a program to find maximum number using switch case.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, y;
+printf("Enter any two numbers: \n");
+scanf("%d%d", &x, &y);
+switch(x > y) {
+case 0: printf("%d is Maximum number", y);
+break;
+case 1: printf("%d is Maximum number", x);
+break;
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
