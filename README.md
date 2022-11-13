@@ -2935,6 +2935,56 @@ return 0;
 ----------------------------------------
 
 
+# Question 104
+
+### **Question:**
+
+> ***Write a program to calculate the area of different geometric shapes using switch statements.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int choice;
+float r, l, w, b, h;
+printf("\nEnter 1 for area of circle: ");
+printf("\nEnter 2 for area of rectangle: ");
+printf("\nEnter 3 for area of triangle: ");
+printf("\nEnter your choice : ");
+scanf("%d", &choice);
+
+switch(choice) {
+case 1:
+printf("Enter the radius of the circle: ");
+scanf("%f", &r);
+printf("\nArea of a circle is: %f\n", (3.14*r*r));
+break;
+case 2:
+printf("Enter the length and width of the rectangle: \n");
+scanf("%f%f", &l, &w);
+printf("\nArea of a rectangle is: %f\n", (l*w));
+break;
+case 3:
+printf("Enter the base and height of the triangle: \n");
+scanf("%f%f", &b, &h);
+printf("\nArea of a triangle is: %f\n", (0.5*b*h));
+break;
+default:
+printf("\nPlease enter a number from 1 to 3.\n");
+break;
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
 
 
 
