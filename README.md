@@ -3669,7 +3669,38 @@ return 0;
 ----------------------------------------
 
 
+# Question 128
 
+### **Question:**
+
+> ***Write a program to illustrate isprint() and iscntrl() functions.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char ch = 'a';
+if (isprint(ch)) {
+printf("\n%c is printable character.", ch);
+} 
+else {
+printf("\n%c is not printable character.", ch);
+}
+
+if (iscntrl(ch)) {
+printf("\n%c is control character.", ch);
+} 
+else {
+printf("\n%c is not control character.", ch);
+}
+return (0);
+}
+```
+----------------------------------------
 
 
 
