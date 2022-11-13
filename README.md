@@ -2894,7 +2894,7 @@ int main() {
 int num; 
 printf("Input a positive or negative number: \n");
 scanf("%d", &num);
-printf("Absolute value of |%d| is %d\n", num, abs(num));
+printf("\nAbsolute value of |%d| is %d\n", num, abs(num));
 return 0;
 } 
 ```
