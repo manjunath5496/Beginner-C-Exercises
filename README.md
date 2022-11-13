@@ -1802,6 +1802,67 @@ return 0;
 
 ----------------------------------------
 
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x=12, y =3;
+printf("%d\n", abs(-x-y));
+return 0;
+}
+
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+15
+
+```
+
+----------------------------------------
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x=12, y =3;
+printf("%d\n", -(-x-y));
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+15
+
+```
+
+----------------------------------------
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x=12, y =3;
+printf("%d\n", x-(-y));
+return 0;
+}
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+15
+
+```
+
+----------------------------------------
+
 
 
 # Question 60
