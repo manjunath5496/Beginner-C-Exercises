@@ -3358,7 +3358,36 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 117
 
+### **Question:**
+
+> ***Write a program that uses the function to determine whether a entered number is even or odd.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int myfunc(int x) {   
+return (x & 1);
+}
+int main() {
+int x;
+printf("Enter any number: ");
+scanf("%d", &x);
+if(myfunc(x)) {
+printf("\nThe number you entered is odd.");
+}
+else {
+printf("\nThe number you entered is even.");
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
