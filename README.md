@@ -3276,6 +3276,34 @@ return 0;
 ----------------------------------------
 
 
+# Question 114
+
+### **Question:**
+
+> ***Write a program that display the pattern like a right angle triangle using an asterisk.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int rows;
+printf("Input the number of rows: ");
+scanf("%d", &rows);
+for(int x=1; x<=rows; x++) {
+for(int y=1; y<=x; y++)
+printf("*");
+printf("\n");
+}
+}
+```
+----------------------------------------
+
+
+
+
 
 
 
