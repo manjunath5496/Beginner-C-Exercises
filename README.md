@@ -3487,13 +3487,13 @@ return 0;
 #include<ctype.h>
 int main() {
 char a;
-printf("Enter a character : ");
+printf("Enter a character: ");
 scanf("%c", &a);
 if(isalnum(a)) {
-printf("%c is an alphanumeric character.", a);
+printf("\n%c is an alphanumeric character.", a);
 }
 else {
-printf("%c is NOT an alphanumeric character.", a);
+printf("\n%c is NOT an alphanumeric character.", a);
 }
 return 0;
 }
