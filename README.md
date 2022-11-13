@@ -3000,6 +3000,46 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 105
+
+### **Question:**
+
+> ***Write a program to accept a character from the keyboard and print "Yes" if it is equal to y. Otherwise print "No".***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+char ch;
+printf ("Enter a character: ");
+ch = getchar ();
+if(ch == 'y' || ch == 'Y') {
+printf ("Yes\n");
+}
+else {
+printf ("No\n");
+}
+return(0);
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
