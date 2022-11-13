@@ -3329,6 +3329,31 @@ printf("\n");
 ----------------------------------------
 
 
+# Question 116
+
+### **Question:**
+
+> ***Write a program to determine the number and sum of all integers between 50 and 100 which are divisible by 2.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x, sum=0;
+printf("Numbers between 50 and 100, divisible by 2: \n");
+for(x=51; x<100; x++) {
+if(x%2==0) {
+printf("%5d", x);
+sum+=x;
+}
+}
+printf("\nThe sum: %d", sum);
+}
+```
+----------------------------------------
 
 
 
