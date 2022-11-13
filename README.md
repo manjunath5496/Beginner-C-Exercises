@@ -3472,7 +3472,34 @@ return 0;
 ----------------------------------------
 
 
+# Question 121
 
+### **Question:**
+
+> ***Write a program to determine whether the character entered is an alphanumeric character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char a;
+printf("Enter a character : ");
+scanf("%c", &a);
+if(isalnum(a)) {
+printf("%c is an alphanumeric character.", a);
+}
+else {
+printf("%c is NOT an alphanumeric character.", a);
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
