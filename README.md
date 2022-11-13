@@ -2973,7 +2973,7 @@ scanf("%f%f", &b, &h);
 printf("\nArea of a triangle is: %f", (0.5*b*h));
 break;
 default:
-printf("\nPlease enter a number from 1 to 3.\n");
+printf("\nPlease enter a number from 1 to 3.");
 break;
 }
 return 0;
