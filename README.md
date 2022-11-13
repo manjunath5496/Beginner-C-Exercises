@@ -4006,4 +4006,36 @@ return 0;
 ----------------------------------------
 
 
+# Question 138
+
+### **Question:**
+
+> ***Write a program to read three numbers and find average of numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int a,b,c;
+float avg;
+printf("\nEnter the first number: ");
+scanf("%d", &a);
+printf("\nEnter the second number: ");
+scanf("%d",&b);
+printf("\nEnter the third number: ");
+scanf("%d",&c);
+avg=a+b+c/3.0;
+printf("\nAverage of three numbers is: %f", avg);
+return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
 
