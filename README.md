@@ -4035,7 +4035,28 @@ return 0;
 ----------------------------------------
 
 
+# Question 139
 
+### **Question:**
+
+> ***Write a program to read integer "n" and print first three powers (n<sup>1</sup>, n<sup>2</sup>, n<sup>3</sup>).***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main() {
+int n;
+printf("\nEnter a number: ");
+scanf("%d",&n);
+printf("%f, %f, %f", pow(n, 1), pow(n, 2), pow(n, 3));
+return 0;
+}
+```
+----------------------------------------
 
 
 
