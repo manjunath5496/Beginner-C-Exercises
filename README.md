@@ -3413,10 +3413,63 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 119
+
+### **Question:**
+
+> ***Write a program to find power of a entered number using library function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main() {
+int x, y;
+printf("\nEnter the value for x: ");
+scanf("%d", &x);
+printf("\nEnter the value for y: ");
+scanf("%d", &y);
+printf("\n%d^%d = %ld", x, y, (long)pow(x,y));
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 120
 
+### **Question:**
 
+> ***Write a program to determine if the character entered is an alphabetic or numeric character.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char ch;
+printf("Enter a character: ");
+scanf("%c", &ch);
+if(isdigit(ch)) {
+printf("\n%c is a Digit", ch);
+}
+else if(isalpha(ch)) {
+printf("\n%c is an Alphabet", ch);
+}
+else {
+printf("\n%c is not an Alphabet, or a Digit", ch);
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
