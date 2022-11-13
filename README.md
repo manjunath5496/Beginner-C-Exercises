@@ -3937,8 +3937,12 @@ return 0;
 ```C language
 #include<stdio.h>
 int main() {
-int x=12;
-printf("%d", x>>1);
+int radius;
+float PI = 3.141592;
+printf("\nEnter the radius of sphere: ");
+scanf("%d", &radius);
+float volume = (4/3)*(PI*radius*radius*radius);
+printf("\nThe volume of sphere is: %f", volume);
 return 0;
 }
 ```
