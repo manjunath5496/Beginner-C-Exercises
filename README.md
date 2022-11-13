@@ -1729,6 +1729,30 @@ return 0;
 ```
 
 ----------------------------------------
+
+```C language
+#include<stdio.h>
+#define A 15
+int main() {
+int x;
+x=A;
+printf("%d", x);
+return 0;
+}
+
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+15
+
+```
+
+----------------------------------------
+
+
 # Question 60
 
 ### **Question:**
