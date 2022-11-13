@@ -3501,13 +3501,172 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 122
+
+### **Question:**
+
+> ***Write a program to determine whether the character entered is an punctuation character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char a;
+printf("Enter a character: ");
+scanf("%c", &a);
+if(ispunct(a)) {
+printf("\n%c is an punctuation character.", a);
+}
+else {
+printf("\n%c is NOT an punctuation character.", a);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 123
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a graphic character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char a;
+printf("Enter a character: ");
+scanf("%c", &a);
+if(isgraph(a)) {
+printf("\n%c is a graphic character.", a);
+}
+else {
+printf("\n%c is NOT a graphic character.", a);
+}
+return 0;
+}
+```
+----------------------------------------
 
 
+# Question 124
+
+### **Question:**
+
+> ***Write a program to list all printable characters using isprint() function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+int i;
+for(i = 1; i <= 127; i++) 
+if(isprint(i)!= 0)
+printf("%c ", i);
+return 0;
+}
+
+```
+----------------------------------------
 
 
+# Question 125
 
+### **Question:**
+
+> ***Write a program to check whether the entered character is a hexadecimal digit character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char a;
+printf("Enter a character: ");
+scanf("%c", &a);
+if(isxdigit(a)) {
+printf("\n%c is a hexadecimal digit character.", a);
+}
+else {
+printf("\n%c is NOT a hexadecimal digit character.", a);
+}
+return 0;
+}
+
+```
+----------------------------------------
+
+# Question 126
+
+### **Question:**
+
+> ***Write a program to print ASCII value of all control characters.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+int i;
+printf("The ASCII value of all control characters are: \n");
+for(i=0; i<=127; i++) {
+if(iscntrl(i)!=0)
+printf("\n %d ", i);
+}
+return 0;
+}
+
+```
+----------------------------------------
+
+# Question 127
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a white-space character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+char c;
+printf("Enter a character: ");
+scanf("%c", &c);
+if(isspace(c) == 0) {
+printf("Not a white-space character.");
+}
+else {
+printf("White-space character.");
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
