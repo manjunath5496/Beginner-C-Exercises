@@ -2844,7 +2844,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 101
 
+### **Question:**
+
+> ***Write a program to verify the password until it is correct.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int pwd, i;
+while (i!=0) {
+printf("\nEnter the password: ");
+scanf("%d",&pwd);
+if(pwd==1988) {
+printf("The password you entered is correct");
+i=0;
+}
+else {
+printf("Incorrect password, try again");
+}
+printf("\n");
+}
+return 0;
+}
+
+```
+----------------------------------------
 
 
 
