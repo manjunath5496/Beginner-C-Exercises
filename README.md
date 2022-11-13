@@ -2772,6 +2772,78 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 98
+
+### **Question:**
+
+> ***Write a program to convert the upper case letter to lower case letter.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<ctype.h>
+#include<stdio.h>
+int main() {
+char ch;
+ch = 'G';
+printf("%c in lowercase is represented as %c", ch, tolower(ch));
+return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 99
+
+### **Question:**
+
+> ***Write a program to find the quotient and remainder of a entered dividend and divisor.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int dividend, divisor;
+printf("\nEnter dividend: ");
+scanf("%d", &dividend);
+printf("\nEnter divisor: ");
+scanf("%d", &divisor);
+printf("\nQuotient = %d\n", (dividend / divisor));
+printf("\nRemainder = %d", (dividend % divisor));
+return 0;
+}
+```
+----------------------------------------
+
+# Question 100
+
+### **Question:**
+
+> ***Write a program to determine the Size of int, float, double and char.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+printf("Size of char is: %ld byte\n",sizeof(char));
+printf("Size of int is: %ld bytes\n",sizeof(int));
+printf("Size of float is: %ld bytes\n",sizeof(float));
+printf("Size of double is: %ld bytes", sizeof(double));
+return 0;
+}
+```
+----------------------------------------
+
+
 
 
 
