@@ -3075,6 +3075,71 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 107
+
+### **Question:**
+
+> ***Write a program to check whether a number entered by the user is power of 2 or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x;
+printf("Enter a number: ");
+scanf("%d", &x);
+if((x != 0) && ((x &(x - 1)) == 0)) {
+printf("\n%d is a power of 2", x);
+}
+else {
+printf("\n%d is not a power of 2", x);
+}
+return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 108
+
+### **Question:**
+
+> ***Write a program to determine whether a triangle is scalene, isosceles, or equilateral.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int side1, side2, side3;
+printf("\nEnter the first side of the triangle: ");
+scanf("%d",&side1);
+printf("\nEnter the second side of the triangle: ");
+scanf("%d",&side2);
+printf("\nEnter the third side of the triangle: ");
+scanf("%d",&side3);
+if(side1 == side2 && side2 == side3) {
+printf("\nThe given Triangle is equilateral.");
+}
+else if(side1 == side2 || side2 == side3 || side3 == side1) {
+printf("\nThe given Triangle is isosceles.");
+}
+else {
+printf("\nThe given Triangle is scalene.");
+}
+return 0;
+}
+
+
+```
+----------------------------------------
+
 
 
 
