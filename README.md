@@ -1753,6 +1753,57 @@ return 0;
 ----------------------------------------
 
 
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int i;
+for(i=1; i <= 3; i++) {
+printf((i&1) ? "odd\n" : "even\n");
+}
+exit(EXIT_SUCCESS);
+}
+
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+odd
+even
+odd
+
+```
+
+----------------------------------------
+
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main() {
+double a, b;
+a = -2.5;
+b = fabs(a);
+printf("|%.2lf| = %.2lf\n", a, b);
+return 0;
+}
+
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+|-2.50| = 2.50
+
+```
+
+----------------------------------------
+
+
+
 # Question 60
 
 ### **Question:**
@@ -3723,6 +3774,90 @@ printf("\nEnter the side of cube: ");
 scanf("%d", &side);
 area = 6*side*side;
 printf("\nThe surface area of cube is: %ld", area);
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 130
+
+### **Question:**
+
+> ***Write a program to subtract 2 numbers without using subtraction operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x =6, y=3;
+printf("%d", x+(~y)+1);
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 131
+
+### **Question:**
+
+> ***Write a program to add 2 numbers without using addition operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int x =6, y=3;
+printf("%d", x-(~y)-1);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 132
+
+### **Question:**
+
+> ***Write a program to multiply a number by 2 without using multiplication operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x=2;
+printf("%d", x<<1);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 134
+
+### **Question:**
+
+> ***Write a program to divide a number by 2 without using division operator.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x=12;
+printf("%d", x>>1);
 return 0;
 }
 ```
