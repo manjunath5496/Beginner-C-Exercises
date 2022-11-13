@@ -3924,6 +3924,25 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 135
+
+### **Question:**
+
+> ***Write a program to calculate volume of sphere.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int x=12;
+printf("%d", x>>1);
+return 0;
+}
+```
+----------------------------------------
 
 
 
