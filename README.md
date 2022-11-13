@@ -3051,6 +3051,29 @@ return(0);
 ```
 ----------------------------------------
 
+# Question 106
+
+### **Question:**
+
+> ***Write a program that uses bitwise operators to multiply an entered value by four.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+long x, y;
+printf("Enter a integer: ");
+scanf("%ld", &x);
+y = x;
+x = x << 2;
+printf("%ld x 4 = %ld\n", y, x);
+return 0;
+}
+```
+----------------------------------------
 
 
 
