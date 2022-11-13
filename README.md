@@ -3949,5 +3949,31 @@ return 0;
 ----------------------------------------
 
 
+# Question 136
 
+### **Question:**
+
+> ***Write a program to calculate volume of ellipsoid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int r1, r2, r3;
+float PI = 3.141592;
+printf("\nEnter the radius of the ellipsoid of axis 1: ");
+scanf("%d", &r1);
+printf("\nEnter the radius of the ellipsoid of axis 2: ");
+scanf("%d", &r2);
+printf("\nEnter the radius of the ellipsoid of axis 3: ");
+scanf("%d", &r3);
+float volume = (4/3)*(PI*r1*r2*r3);
+printf("\nThe volume of ellipsoid is: %f", volume);
+return 0;
+}
+```
+----------------------------------------
 
