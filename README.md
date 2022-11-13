@@ -3390,6 +3390,28 @@ return 0;
 ----------------------------------------
 
 
+# Question 118
+
+### **Question:**
+
+> ***Write a program to find square root of a entered number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main() {
+int x;
+printf("Enter any number: ");
+scanf("%d",&x);
+printf("Square root of %d is %.2lf", x, sqrt(x));
+return 0;
+}
+```
+----------------------------------------
 
 
 
