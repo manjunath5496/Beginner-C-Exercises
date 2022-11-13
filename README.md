@@ -3242,6 +3242,39 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 113
+
+### **Question:**
+
+> ***Write a program that allows you to enter the cost price and the selling price of a product and calculate profit or loss.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+int cp, sp; 
+printf("\nInput Cost Price: ");
+scanf("%d", &cp);
+printf("\nInput Selling Price: ");
+scanf("%d", &sp);
+if(sp > cp) {
+printf("Profit = %d", (sp - cp));
+}
+else if(cp > sp) {
+printf("Loss = %d", (cp - sp));
+}
+else {
+printf("No Profit No Loss.");
+}
+return 0;
+}
+
+```
+----------------------------------------
+
 
 
 
