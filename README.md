@@ -2960,17 +2960,17 @@ switch(choice) {
 case 1:
 printf("Enter the radius of the circle: ");
 scanf("%f", &r);
-printf("\nArea of a circle is: %f\n", (3.14*r*r));
+printf("\nArea of a circle is: %f", (3.14*r*r));
 break;
 case 2:
 printf("Enter the length and width of the rectangle: \n");
 scanf("%f%f", &l, &w);
-printf("\nArea of a rectangle is: %f\n", (l*w));
+printf("\nArea of a rectangle is: %f", (l*w));
 break;
 case 3:
 printf("Enter the base and height of the triangle: \n");
 scanf("%f%f", &b, &h);
-printf("\nArea of a triangle is: %f\n", (0.5*b*h));
+printf("\nArea of a triangle is: %f", (0.5*b*h));
 break;
 default:
 printf("\nPlease enter a number from 1 to 3.\n");
