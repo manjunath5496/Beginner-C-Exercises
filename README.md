@@ -3722,7 +3722,7 @@ long area;
 printf("\nEnter the side of cube: ");
 scanf("%d", &side);
 area = 6*side*side;
-printf("\nThe Surface area of cube is: %ld", area);
+printf("\nThe surface area of cube is: %ld", area);
 return 0;
 }
 ```
