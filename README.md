@@ -1709,7 +1709,26 @@ return 0;
 ```
 ----------------------------------------
 
+```C language
+#include<stdio.h>
+int main() {
+int a = 10, b = 20, c;
+c = (a < b) ? a : b;
+printf("%d", c);
+return 0;
+}
 
+```
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+10
+
+```
+
+----------------------------------------
 # Question 60
 
 ### **Question:**
