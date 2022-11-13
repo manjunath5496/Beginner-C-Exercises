@@ -2877,6 +2877,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 102
+
+### **Question:**
+
+> ***Write a program to find absolute value of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+int num; 
+printf("Input a positive or negative number: \n");
+scanf("%d", &num);
+printf("Absolute value of |%d| is %d\n", num, abs(num));
+return 0;
+} 
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
