@@ -2901,6 +2901,38 @@ return 0;
 ----------------------------------------
 
 
+# Question 103
+
+### **Question:**
+
+> ***Write a program that will accept a person's height in cm and classify the person based on it.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main() {
+float ht;
+printf("\nEnter the height (in cm): ");
+scanf("%f", &ht);
+if(ht < 150.0) {
+printf("Dwarf.\n");
+}
+else if((ht >= 150.0) && (ht < 165.0)) {
+printf("Average Height.\n");
+}
+else if((ht >= 165.0) && (ht <= 195.0)) {
+printf("Taller.\n");
+}
+else {
+printf("Abnormal height.\n");
+}
+return 0;
+} 
+```
+----------------------------------------
 
 
 
