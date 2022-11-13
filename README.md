@@ -2887,10 +2887,10 @@ int a,b;
 printf("Enter two numbers: \n");
 scanf("%d%d", &a, &b);
 if(a>b) {
-printf("\n%d is a maximum number\n", a);
+printf("\n%d is a maximum number", a);
 }
 else {
-printf("\n%d is a maximum number\n", b);
+printf("\n%d is a maximum number", b);
 }
 return 0;
 }
